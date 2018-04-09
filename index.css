@@ -5,6 +5,7 @@ body, html {
     line-height: 1.8;
 }
 
+
 /* Create a Parallax Effect */
 .bgimg-1, .bgimg-2, .bgimg-3 {
     background-attachment: fixed;
@@ -21,13 +22,13 @@ body, html {
 
 /* Second image (Portfolio) */
 .bgimg-2 {
-    background-image: url("/w3images/parallax2.jpg");
+    background-image: url("hack_win.jpeg");
     min-height: 400px;
 }
 
 /* Third image (Contact) */
 .bgimg-3 {
-    background-image: url("/w3images/parallax3.jpg");
+    background-image: url("speech.jpg");
     min-height: 400px;
 }
 
@@ -39,4 +40,164 @@ body, html {
     .bgimg-1, .bgimg-2, .bgimg-3 {
         background-attachment: scroll;
     }
+}
+
+/*Div pop-up attributes */
+
+/* iAdvisor Div */
+
+
+/* iAdvisor Modal Content */
+.iadvisor-modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.iadvisor-modal-content {
+    position: relative;
+    background-color: white;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* The Close Button */
+.close {
+    color: blue;
+    float: right;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+
+
+.iadvisor-modal-header {
+    padding: 2px 16px;
+    background-color:  #ff9999;
+    color: white;
+}
+
+.iadvisor-modal-body {padding: 2px 16px;}
+
+/* The Close Button */
+.iadvisor-close {
+    color: blue;
+    float: right;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.iadvisor-close:hover,
+.iadvisor-close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.iadvisor-modal-footer {
+    padding: 2px 16px;
+    background-color:  #ff9999;
+    color: white;
+}
+
+/* Mapping Modal Content */
+
+.mapping-modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.mapping-modal-content {
+    position: relative;
+    background-color: white;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+
+.mapping-modal-header {
+    padding: 2px 16px;
+    background-color:  #1a53ff;
+    color: white;
+}
+
+.mapping-modal-body {padding: 2px 16px;}
+
+/* The Close Button */
+.mapping-close {
+    color: white;
+    float: right;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.mapping-close:hover,
+.mapping-close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.mapping-modal-footer {
+    padding: 2px 16px;
+    background-color:  #1a53ff;
+    color: white;
 }

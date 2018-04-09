@@ -1,34 +1,44 @@
 <!DOCTYPE html>
 <html>
 <title>W3.CSS Template</title>
+<head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <link rel="stylesheet" href="index.css">
 
+</head>
 <body>
 
 <!-- Navbar (sit on top) -->
-<div class="w3-top">
+<div class="w3-top w3-brown" >
   <div class="w3-bar" id="myNavbar">
-    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+    <a class="w3-bar-item w3-button w3-hover-green w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
       <i class="fa fa-bars"></i>
     </a>
     <a href="#home" class="w3-bar-item w3-button">HOME</a>
-    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
-    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
-    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+    <a href="#about" class="w3-bar-item w3-button w3-hover-green w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-hover-green w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hover-green w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-green">
       <i class="fa fa-search"></i>
     </a>
   </div>
 
   <!-- Navbar on small screens -->
-  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+  <div id="navDemo" class="w3-bar-block w3-brown w3-hide w3-hide-large w3-hide-medium">
     <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
     <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
     <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
@@ -39,7 +49,7 @@
 <!-- First Parallax Image with Logo Text -->
 <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
   <div class="w3-display-middle" style="white-space:nowrap;">
-    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">Solving Problems With Software</span>
+    <span class="w3-center w3-padding-large w3-brown w3-xlarge w3-wide w3-animate-opacity">Solving Problems With Software</span>
   </div>
 </div>
 
@@ -57,136 +67,219 @@
     <!-- Hide this text on small devices -->
     <div class="w3-col m6 w3-hide-small w3-padding-large">
       <h4>Full Stack Developer</h4>
-      <p>Although I have prefrences, I really enjoy developing the full stack when it comes to software development. I have experince in
-        <strong>database design with SQL and MySQL workbench</strong>. I also have very limited experince in NoSQL databases mostly in
-          MongoDB. I have worked with <strong>server-side applications in PHP and Node.JS</strong>. Lastly, I have worked on the <strong>
-          Front-End in javascript, HTML/CSS, JQuery, and Bootstrap</strong>. For me the greatest joy I have is watching an app be developed
-          from the ground up and seeing the different parts act as one.
+      <p>
       </p>
     </div>
   </div>
 
 
-  <!-- <p class="w3-large w3-center w3-padding-16">Im really good at:</p>
-  <p class="w3-wide"><i class="fa fa-camera"></i>Photography</p>
-  <div class="w3-light-grey">
-    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:90%">90%</div>
-  </div>
-  <p class="w3-wide"><i class="fa fa-laptop"></i>Web Design</p>
-  <div class="w3-light-grey">
-    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:85%">85%</div>
-  </div>
-  <p class="w3-wide"><i class="fa fa-photo"></i>Photoshop</p>
-  <div class="w3-light-grey">
-    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:75%">75%</div>
-  </div> -->
-
 </div>
 
-<div class="w3-row w3-center w3-dark-grey w3-padding-16">
-  <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">14+</span><br>
-    Partners
+<div class="w3-center w3-row  w3-brown w3-padding-16">
+  <!-- <div class="w3-quarter w3-section">
+    <a href = "https://github.com/rjpadgett2"><i class="fa fa-github w3-hover-opacity fa-5x"></i></a><br>
+    Github
   </div>
   <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">55+</span><br>
-    Projects Done
+    <a href = "https://www.linkedin.com/in/reginaldpadgett2/"><i class="fa fa-linkedin w3-hover-opacity fa-5x"></i></a><br>
+    LinkedIn
   </div>
   <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">89+</span><br>
-    Happy Clients
-  </div>
-  <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">150+</span><br>
-    Meetings
-  </div>
+  <a href = "my-resume (1).pdf"><i class="fa fa-file-text w3-hover-opacity fa-5x"></i></a><br>
+    Resume
+  </div> -->
 </div>
 
 <!-- Second Parallax Image with Portfolio Text -->
 <div class="bgimg-2 w3-display-container w3-opacity-min">
   <div class="w3-display-middle">
-    <span class="w3-xxlarge w3-text-white w3-wide">PORTFOLIO</span>
+    <span class="w3-center w3-padding-large w3-brown w3-xlarge w3-wide w3-animate-opacity">PORTFOLIO</span>
   </div>
 </div>
 
-<!-- Container (Portfolio Section) -->
-<div class="w3-content w3-container w3-padding-64" id="portfolio">
-  <h3 class="w3-center">MY WORK</h3>
-  <p class="w3-center"><em>Here are some of my latest lorem work ipsum tipsum.<br> Click on the images to make them bigger</em></p><br>
+  <h3 class="w3-center">MY WORK - Full Stack Developer</h3>
+  <p class="w3-center">Although I have prefrences, I really enjoy developing the full stack when it comes to software development. I have experince in
+    <strong>database design with SQL and MySQL workbench</strong>. I also have very limited experince in NoSQL databases mostly in
+      MongoDB. I have worked with <strong>server-side applications in PHP and Node.JS</strong>. Lastly, I have worked on the <strong>
+      Front-End in javascript, HTML/CSS, JQuery, and Bootstrap</strong>. For me the greatest joy I have is watching an app be developed
+      from the ground up and seeing the different parts act as one.</p><br>
 
-  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
-  <div class="w3-row-padding w3-center">
-    <div class="w3-col m3">
-      <img src="/w3images/p1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist over the mountains">
-    </div>
+      <div class="container">
+    <div class="row">
 
-    <div class="w3-col m3">
-      <img src="/w3images/p2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Coffee beans">
-    </div>
+      <div class="col-sm-4">
+        <div class="panel panel-primary">
+          <div class="panel-heading">Mapping Inequality</div>
+          <div class="panel-body"><img src="mapping.png" class="img-responsive" style="width:100%" alt="Image"></div>
+          <div class="panel-footer">Constructing relational database's connecting five different document structures and designed queries to efficiently gather data between them</div>
+          <center><button onclick="modPopup(this.className)" class="mapping_button"><strong>More Info</strong></button></center>
+        </div>
+      </div>
 
-    <div class="w3-col m3">
-      <img src="/w3images/p3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Bear closeup">
-    </div>
+      <!-- The Modal -->
+      <div id="mapping_info" class="mapping-modal">
 
-    <div class="w3-col m3">
-      <img src="/w3images/p4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Quiet ocean">
+        <!-- Modal content -->
+        <div class="mapping-modal-content">
+          <div class="mapping-modal-header">
+            <span class="mapping-close">&times;</span>
+            <center><h2>Mapping Inequality</h2></center>
+            <center><img src = "mapping.png" lt="imapping_logo" height="300" width="300"></center>
+          </div>
+          <div class="mapping-modal-body">
+            <center><p><h2>Analyzing Redlining Data in the USA</h2></p></center>
+            <center><p><h4>General Description</h4></p></center>
+            <p>We are currently working on building a database that makes sense of the redlining data in the USA. The data is recorded on papers
+              from the early 20th century and our job is to transcribe teh data and analyze it. I am working on the data cleaning team which used
+            Python and Jupyter notebook to clean the data using the Pandas library. I am also serving as head of the Database Management team that
+          is tasked with building a reltional databse that ties in all the different documents together in an easy to read queryable database. The goal
+        is to have a front end interface that will allow the user to easily analyze the data.</p>
+        <center><p><h4>Technology Used</h4></p></center>
+        <p>The program uses JavaScript, JQuery, Bootstrap, HTML, and CSS for the front end interface as well as form
+        and 4 year plan builder. PHP is used on the back-end to process request and MySQL is used as the database.
+      We are using the Google Sign-In API to keep track of users and their state. We are using the Google Clooud platform to host
+    the website.</p>
+          </div>
+          <div class="mapping-modal-footer">
+            <p>For more info about the project please visit:<strong>https://dsl.richmond.edu/panorama/redlining/#loc=4/36.71/-96.93&opacity=0.8</strong></P>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col-sm-4">
+        <div class="panel panel-danger">
+          <div class="panel-heading">iAdvisor</div>
+          <div class="panel-body"><img src="iadvisor.png" class="img-responsive" style="width:100%" alt="Image"></div>
+          <div class="panel-footer">Online advising system that takes student info and keeps track of student classes and requirements</div>
+          <center><button onclick="modPopup(this.className)" class="iadvisor_button"><strong>More Info!</strong></button></center>
+        </div>
+      </div>
+
+      <!-- The Modal -->
+      <div id="iadvisor_info" class="iadvisor-modal">
+
+        <!-- Modal content -->
+        <div class="iadvisor-modal-content">
+          <div class="iadvisor-modal-header">
+            <span class="iadvisor-close">&times;</span>
+            <center><h2>iAdvisor</h2></center>
+            <center><img src = "iadvisor_logo.jpg" lt="iAdvisor_logo" height="300" width="300"></center>
+          </div>
+          <div class="iadvisor-modal-body">
+            <center><p><h2>The Online Advising System</h2></p></center>
+            <center><p><h4>General Description</h4></p></center>
+            <p>iAdvisor is an online 4 year plan building system that uses the students
+            past class history to build a 4 year plan. The program will automatically check
+            for cases like too many credits, too little credits, ensure the correct class order,
+            and keep track of classes needed to complete thier degree. The students will be able to send thier agenda in a CSV
+            format to advisors in the iSchool at the University of Maryland College Park so it can be inserted into thier database.
+            The goal for this project is to make managing multiple student 4 year plans easier for advisors and make creating 4 year
+            plans less complicated for the students.</p>
+        <center><p><h4>Technology Used</h4></p></center>
+        <p>The program uses JavaScript, JQuery, Bootstrap, HTML, and CSS for the front end interface as well as form
+        and 4 year plan builder. PHP is used on the back-end to process request and MySQL is used as the database.
+      We are using the Google Sign-In API to keep track of users and their state. We are using the Google Clooud platform to host
+    the website.</p>
+        <center><p><h4>Demo</h4></p></center>
+
+          <!-- Screen Shots -->
+          <center><p><h4>Screen Shots</h4></p></center>
+              <div id="myCarousel" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+              </ol>
+
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+                <div class="item active">
+                  <img src="iadvisor.png" alt="Los Angeles">
+                </div>
+
+                <div class="item">
+                  <img src="iadvisor_form.png" alt="Chicago">
+                </div>
+
+                <div class="item">
+                  <img src="iadvisor_plan.png" alt="New York">
+                </div>
+              </div>
+
+              <!-- Left and right controls -->
+              <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+              </a>
+              </div>
+
+          </div>
+          <div class="iadvisor-modal-footer">
+            <p>This app can be seen live at the following IP:<strong>http://35.185.100.59/iAdvisor-/index.html</strong></P>
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="col-sm-4">
+        <div class="panel panel-success">
+          <div class="panel-heading">Homey</div>
+          <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
+          <div class="panel-footer">Takes in user age, ethnicity, budget, job location, and family size to determine best area to live in Toronto area</div>
+          <center><button id="homey_button"><strong>More Info Coming Soon!</strong></button></center>
+        </div>
+      </div>
     </div>
+  </div><br>
+
+<div class="w3-row w3-center w3-brown w3-padding-16">
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">4 Years</span><br>
+    Leadership Experience
   </div>
-
-  <div class="w3-row-padding w3-center w3-section">
-    <div class="w3-col m3">
-      <img src="/w3images/p5.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist">
-    </div>
-
-    <div class="w3-col m3">
-      <img src="/w3images/p6.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="My beloved typewriter">
-    </div>
-
-    <div class="w3-col m3">
-      <img src="/w3images/p7.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Empty ghost train">
-    </div>
-
-    <div class="w3-col m3">
-      <img src="/w3images/p8.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sailing">
-    </div>
-    <button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">3</span><br>
+    Personal Projects
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">10+ Hours</span><br>
+    Weekly Community Service
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">3+</span><br>
+    Years Experience
   </div>
 </div>
 
-<!-- Modal for full size images on click-->
-<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
-  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
-  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
-    <img id="img01" class="w3-image">
-    <p id="caption" class="w3-opacity w3-large"></p>
-  </div>
-</div>
 
 <!-- Third Parallax Image with Portfolio Text -->
 <div class="bgimg-3 w3-display-container w3-opacity-min">
   <div class="w3-display-middle">
-     <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
+    <span class="w3-center w3-padding-large w3-brown w3-xlarge w3-wide w3-animate-opacity">CONTACT</span>
   </div>
 </div>
 
 <!-- Container (Contact Section) -->
 <div class="w3-content w3-container w3-padding-64" id="contact">
-  <h3 class="w3-center">WHERE I WORK</h3>
+  <h3 class="w3-center">Contact Me</h3>
   <p class="w3-center"><em>I'd love your feedback!</em></p>
 
   <div class="w3-row w3-padding-32 w3-section">
-    <div class="w3-col m4 w3-container">
-      <!-- Add Google Maps -->
-      <div id="googleMap" class="w3-round-large w3-greyscale" style="width:100%;height:400px;"></div>
-    </div>
     <div class="w3-col m8 w3-panel">
       <div class="w3-large w3-margin-bottom">
-        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Chicago, US<br>
-        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +00 151515<br>
-        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: mail@mail.com<br>
+        <!-- <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: 301-437-4950<br> -->
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: reggie.padgett2@gmail.com<br>
       </div>
-      <p>Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a note:</p>
-      <form action="/action_page.php" target="_blank">
+      <p><i class="fa fa-code"></i>Feel free contact me about my projects/experience , or to talk tech:
+      <i class="fa fa-code"></i></p>
+      <form action= "action_page.php" method = "POST">
         <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
           <div class="w3-half">
             <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
@@ -196,8 +289,8 @@
           </div>
         </div>
         <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
-        <button class="w3-button w3-black w3-right w3-section" type="submit">
-          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        <button class="w3-button w3-brown w3-right w3-section" type="submit">
+          <i class="fa fa-paper-plane" style="color:green;"></i> SEND MESSAGE
         </button>
       </form>
     </div>
@@ -205,17 +298,12 @@
 </div>
 
 <!-- Footer -->
-<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
-  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
-  <div class="w3-xlarge w3-section">
-    <i class="fa fa-facebook-official w3-hover-opacity"></i>
-    <i class="fa fa-instagram w3-hover-opacity"></i>
-    <i class="fa fa-snapchat w3-hover-opacity"></i>
-    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-    <i class="fa fa-twitter w3-hover-opacity"></i>
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
-  </div>
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+<footer class="w3-center w3-brown w3-padding-64">
+  <a href = "https://github.com/rjpadgett2"><i class="fa fa-github w3-hover-opacity fa-5x" style="color:green;"></i></a>Github
+  <a href = "https://www.linkedin.com/in/reginaldpadgett2/"><i class="fa fa-linkedin w3-hover-opacity fa-5x" style="color:green;"></i></a>LinkedIn
+  <a href = "my-resume (1).pdf"><i class="fa fa-file-text w3-hover-opacity fa-5x" style="color:green;"></i></a>Resume<br><br>
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right" ></i>To the top</a>
+
 </footer>
 
 <!-- Add Google Maps -->
@@ -264,6 +352,70 @@ function toggleFunction() {
         x.className = x.className.replace(" w3-show", "");
     }
 }
+</script>
+<script>
+// // Get the modal
+// var iadvisor-modal = document.getElementById('iadvisor_info');
+// var mapping-modal = document.getElementById('mapping_info');
+//
+// // Get the button that opens the modal
+// var iadvisor-btn = document.getElementById("iadvisor_button");
+// var mapping-btn = document.getElementById("mapping_button");
+//
+// // Get the <span> element that closes the modal
+// var iadvisor-span = document.getElementsByClassName("iadvisor-close")[0];
+// var mapping-span = document.getElementsByClassName("mapping-close")[0];
+//
+// // When the user clicks the button, open the modal
+// btn.onclick = function() {
+//     modal.style.display = "block";
+// }
+//
+// // When the user clicks on <span> (x), close the modal
+// span.onclick = function() {
+//     modal.style.display = "none";
+// }
+
+function modPopup(elem){
+    if (elem == 'iadvisor_button'){
+        var modal = document.getElementById('iadvisor_info');
+        var span = document.getElementsByClassName("iadvisor-close")[0];
+        modal.style.display = "block";
+
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+
+        span.onclick = function() {
+            modal.style.display = "none";
+        }
+    }else if(elem  == 'mapping_button'){
+      var modal = document.getElementById('mapping_info');
+      var span = document.getElementsByClassName("mapping-close")[0];
+      modal.style.display = "block";
+
+      window.onclick = function(event) {
+          if (event.target == modal) {
+              modal.style.display = "none";
+          }
+        }
+
+        span.onclick = function() {
+            modal.style.display = "none";
+        }
+    }
+
+
+}
+
+// // When the user clicks anywhere outside of the modal, close it
+// window.onclick = function(event) {
+//     if (event.target == modal) {
+//         modal.style.display = "none";
+//     }
+// }
 </script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
 <!--
