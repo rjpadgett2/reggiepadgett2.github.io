@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>W3.CSS Template</title>
+<title>Reggie Padgett Personal Website</title>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -42,7 +42,7 @@
     <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
     <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
     <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
-    <a href="#" class="w3-bar-item w3-button">SEARCH</a>
+    <!-- <a href="#" class="w3-bar-item w3-button">SEARCH</a> -->
   </div>
 </div>
 
@@ -55,19 +55,26 @@
 
 <!-- Container (About Section) -->
 <div class="w3-content w3-container w3-padding-64" id="about">
-  <h3 class="w3-center">ABOUT ME</h3>
-  <p class="w3-center"><em>Software Developer by Accident</em></p>
-  <p>When I started my collegiate career I wanted to be a mechanical engineer. <Strong>As a child I was always interested in building things</strong> and so I thought Mechanical Engineering was for me. Unfortunately that did not work out. I was so discouraged because I was sure that Mehcanical Engineering was what I was meant to do. I ended up taking some computer science classes just to see if CS would be a possible alternative. With no prior coding experience, I found the classes quite difficult. But, I learned about the plethora of things that could be built with software and I was hooked! I love the diversity of software development and I love how it can be applied to everything we do. I found my passion in software development and I am always looking at ways to improve my technical skills and to apply them to problems in my everyday life. I realized that <strong>I was meant to build products with a keyboard and mouse and not with a hammer and screwdriver.</strong></p>
+  <h3 class="w3-center" id = "about-title">ABOUT ME</h3>
+  <center><img src="sprout-plant.png" alt="Sprouting Plant" width="100" height="200"></center>
+  <center><em><h4>Background</h4></em></center>
+  <p id = "about-p">I was born and raised in the D.C. area to an amazing single mother. My mom often times saw talents in me I could not see in myself.
+  As a child, it seemed as though any task that required putting things together or figuring things out was impossible without my input or assistance.
+Every piece of furniture, every wall that needed to be painted, and evertime anything other than the car broke it was my job to figure out how to fix it.
+And when I did not know how to fix it my mom would always respond with <strong>"Reggie, Your smart you will figure it out"</strong>. As a child this line used
+to make me so mad but I always did end up figuring out. An important part of engineering is figuring out solutions to problems you do not know the answer to.
+I found myelf frequently in this situation.</p>
   <div class="w3-row">
     <div class="w3-col m6 w3-center w3-padding-large">
       <p><b><i class="fa fa-user w3-margin-right"></i>Reggie Padgett II</b></p><br>
-      <img src="profile.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333">
+      <img src="profile.JPG" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333">
     </div>
 
     <!-- Hide this text on small devices -->
     <div class="w3-col m6 w3-hide-small w3-padding-large">
-      <h4>Full Stack Developer</h4>
-      <p>
+      <h4>Software Developer by Accident</h4>
+      <p id = "about-ex"> When I started my collegiate career, I wanted to be a mechanical engineer. <Strong>As a child I was always interested in building putting things together and taking them apart</strong> and so I thought Mechanical Engineering was for me. Unfortunately, that did not work out. I was so discouraged because I was sure that Mehcanical Engineering was what I was meant to do. I ended up taking some computer science classes just to see if CS would be a possible alternative. With no prior coding experience, I found the classes quite difficult. But, I learned about the plethora of things that could be built with software and I was hooked! I love the diversity of software development and I love how it can be applied to everything we do. I found my passion in software development and I am always looking at ways to improve my technical skills and to apply them to problems in my everyday life. I realized that
+        <strong>I was meant to build products with a keyboard and mouse and not with a hammer and screwdriver. </strong>
       </p>
     </div>
   </div>
@@ -96,59 +103,60 @@
     <span class="w3-center w3-padding-large w3-brown w3-xlarge w3-wide w3-animate-opacity">PORTFOLIO</span>
   </div>
 </div>
-
-  <h3 class="w3-center">MY WORK - Full Stack Developer</h3>
-  <p class="w3-center">Although I have prefrences, I really enjoy developing the full stack when it comes to software development. I have experince in
+<div id="portfolio">
+  <h3 class="w3-center">MY Projects</h3>
+  <h4 class="w3-center">Full Stack Developer</h4>
+  <p id = "experience-p" class="w3-center">I really enjoy developing the full stack when it comes to software development. I am mostly interested in Full Stack, Technical Program
+    Managment, and Web Developer positions since this is where I have the most experinece. I have experince in
     <strong>database design with SQL and MySQL workbench</strong>. I also have very limited experince in NoSQL databases mostly in
       MongoDB. I have worked with <strong>server-side applications in PHP and Node.JS</strong>. Lastly, I have worked on the <strong>
-      Front-End in javascript, HTML/CSS, JQuery, and Bootstrap</strong>. For me the greatest joy I have is watching an app be developed
-      from the ground up and seeing the different parts act as one.</p><br>
+      Front-End in JavaScript, HTML/CSS, JQuery, and Bootstrap</strong>. For me, the greatest joy I have is watching an app be developed
+      from the ground up and seeing the different parts act as one. While I do not have much industry experience, I have quite a few personal projects. Most of these are projects I work
+    on in my free time outside of school and work.</p><br>
 
       <div class="container">
     <div class="row">
 
+<!--    *******************   Mapping Inequality  ******************   --->
+
       <div class="col-sm-4">
-        <div class="panel panel-primary">
-          <div class="panel-heading">Mapping Inequality</div>
+        <div class="panel-success">
+          <div class="panel-heading">Mapping Inequality - Database Design Team</div>
           <div class="panel-body"><img src="mapping.png" class="img-responsive" style="width:100%" alt="Image"></div>
           <div class="panel-footer">Constructing relational database's connecting five different document structures and designed queries to efficiently gather data between them</div>
-          <center><button onclick="modPopup(this.className)" class="mapping_button"><strong>More Info</strong></button></center>
+          <center><button onclick="modPopup(this.className)" class="mapping_db_button"><strong>More Info</strong></button></center>
         </div>
       </div>
 
       <!-- The Modal -->
-      <div id="mapping_info" class="mapping-modal">
+      <div id="mapping_db_info" class="mapping-db-modal">
 
         <!-- Modal content -->
-        <div class="mapping-modal-content">
-          <div class="mapping-modal-header">
-            <span class="mapping-close">&times;</span>
-            <center><h2>Mapping Inequality</h2></center>
+        <div class="mapping-db-modal-content">
+          <div class="mapping-db-modal-header">
+            <span class="mapping-db-close">&times;</span>
+            <center><h2>Mapping Inequality - Database Design Team</h2></center>
             <center><img src = "mapping.png" lt="imapping_logo" height="300" width="300"></center>
           </div>
-          <div class="mapping-modal-body">
+          <div class="mapping-db-modal-body">
             <center><p><h2>Analyzing Redlining Data in the USA</h2></p></center>
             <center><p><h4>General Description</h4></p></center>
-            <p>We are currently working on building a database that makes sense of the redlining data in the USA. The data is recorded on papers
-              from the early 20th century and our job is to transcribe teh data and analyze it. I am working on the data cleaning team which used
-            Python and Jupyter notebook to clean the data using the Pandas library. I am also serving as head of the Database Management team that
-          is tasked with building a reltional databse that ties in all the different documents together in an easy to read queryable database. The goal
+            <p>Our team is working on building a database that makes sense of the redlining data in the USA. The data is recorded on papers
+              from the early 20th century and our job is to transcribe the data and analyze it. I am serving as team lead of the Database Management team that
+          is tasked with building a relational databse that ties in all the different document types together in an easy to read queryable database. The goal
         is to have a front end interface that will allow the user to easily analyze the data.</p>
         <center><p><h4>Technology Used</h4></p></center>
-        <p>The program uses JavaScript, JQuery, Bootstrap, HTML, and CSS for the front end interface as well as form
-        and 4 year plan builder. PHP is used on the back-end to process request and MySQL is used as the database.
-      We are using the Google Sign-In API to keep track of users and their state. We are using the Google Clooud platform to host
-    the website.</p>
+        <p>We are building the database using MySQL workbench. The goals is develop a series of queries that will asist data analyzation</p>
           </div>
-          <div class="mapping-modal-footer">
-            <p>For more info about the project please visit:<strong>https://dsl.richmond.edu/panorama/redlining/#loc=4/36.71/-96.93&opacity=0.8</strong></P>
+          <div class="mapping-db-modal-footer">
+            <p></P>
           </div>
         </div>
 
       </div>
-
+<!--    *******************   iAdvisor ******************   --->
       <div class="col-sm-4">
-        <div class="panel panel-danger">
+        <div class="panel-success">
           <div class="panel-heading">iAdvisor</div>
           <div class="panel-body"><img src="iadvisor.png" class="img-responsive" style="width:100%" alt="Image"></div>
           <div class="panel-footer">Online advising system that takes student info and keeps track of student classes and requirements</div>
@@ -221,23 +229,104 @@
 
           </div>
           <div class="iadvisor-modal-footer">
-            <p>This app can be seen live at the following IP:<strong>http://35.185.100.59/iAdvisor-/index.html</strong></P>
+            <a href = "https://github.com/rjpadgett2/iAdvisor-"><center><h3 style="color:white;">Show Me the Code!</h3></center></a>
           </div>
         </div>
 
       </div>
 
-
+<!--    *******************   Homey  ******************   --->
       <div class="col-sm-4">
         <div class="panel panel-success">
           <div class="panel-heading">Homey</div>
           <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-          <div class="panel-footer">Takes in user age, ethnicity, budget, job location, and family size to determine best area to live in Toronto area</div>
-          <center><button id="homey_button"><strong>More Info Coming Soon!</strong></button></center>
+          <div class="panel-footer">Takes in user age, ethnicity, budget, job location, and family size to determine best area to live in Toronto area. This Project took 2nd place in
+          the National Society of Black Engineers 44th Annual Hackathon.</div>
+          <center><button onclick="modPopup(this.className)" class="homey_button"><strong>More Info</strong></button></center>
         </div>
+
+          <!-- The Modal -->
+          <div id="homey_info" class="homey-modal">
+
+            <!-- Modal content -->
+            <div class="homey-modal-content">
+              <div class="homey-modal-header">
+                <span class="homey-close">&times;</span>
+                <center><h2>Homey - Neighborhood Relocation Web App</h2></center>
+                <!-- <center><img src = "mapping.png" lt="imapping_logo" height="300" width="300"></center> -->
+              </div>
+              <div class="homey-modal-body">
+                <center><p><h2>Homey - Web App</h2></p></center>
+                <center><p><h4>General Description</h4></p></center>
+                <p>The app Takes in user age, ethnicity, budget, job location, and family size to determine best area to live in Toronto area. It then sections off the neighborhoods in Tronoto based
+                  on these criteria. <br><br>More Info Coming Soon </p>
+            <center><p><h4>Technology Used</h4></p></center>
+            <p>We used Node.js for the backend as well as Angular.js for the frontend.</p>
+              </div>
+              <div class="homey-modal-footer">
+                <a href = "https://github.com/rjpadgett2/nsbe44-blackhack"><center><h3 style="color:black;">Show Me the Code!</h3></center></a>
+              </div>
+            </div>
+        </div>
+
       </div>
-    </div>
-  </div><br>
+
+    <!--    *******************   Maping Inequality - Data Cleaning  ******************   --->
+          <div class="col-sm-4">
+            <div class="panel panel-success">
+              <div class="panel-heading">Mapping Inequality - Data Cleaning Team</div>
+              <div class="panel-body"><img src="mapping.png" class="img-responsive" style="width:100%" alt="Image"></div>
+              <div class="panel-footer">Responsible for cleaning data from redlining Documents using Python and the Pandas Library</div>
+              <center><button onclick="modPopup(this.className)" class="mapping_dc_button"><strong>More Info</strong></button></center>
+            </div>
+            <!-- The Modal -->
+            <div id="mapping_dc_info" class="mapping-dc-modal">
+
+              <!-- Modal content -->
+              <div class="mapping-dc-modal-content">
+                <div class="mapping-dc-modal-header">
+                  <span class="mapping-dc-close">&times;</span>
+                  <center><h2>Mapping Inequality - Data Cleaning Team</h2></center>
+                  <center><img src = "mapping.png" lt="imapping_logo" height="300" width="300"></center>
+                </div>
+                <div class="mapping-dc-modal-body">
+                  <center><p><h2>Analyzing Redlining Data in the USA</h2></p></center>
+                  <center><p><h4>General Description</h4></p></center>
+                  <p>Our team is taked with cleaning the redlining data from St. Petersburg Florida. The goal is to organize the data in a way that is readible and categorizable.
+                  The original data file has many unordered elements that need to be categroized and organized</p>
+              <center><p><h4>Technology Used</h4></p></center>
+              <p>We utilized the Panda Library and Jupyter notebook to complete this project.</p>
+                </div>
+                <div class="mapping-dc-modal-footer">
+                  <!-- <a href = ""><center><h3 style="color:white;">Show Me the Code!</h3></center></a> -->
+                </div>
+              </div>
+          </div>
+          </div>
+
+<!--    *******************   FealTheBeat App  ******************   --->
+      <div class="col-sm-4">
+        <div class="panel panel-success">
+          <div class="panel-heading">FeelTheBeat</div>
+          <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
+          <div class="panel-footer">Predics Dance Moves based on pitch, tone, and rhythym of song using Echonest API</div>
+          <center><button onclick="modPopup(this.className)"  class="feelthebeat_button"><strong>More Info Coming Soon!</strong></button></center>
+        </div>
+
+      </div>
+
+<!--    *******************   Watershed  ******************   --->
+      <div class="col-sm-4">
+        <div class="panel panel-success">
+          <div class="panel-heading">Hyattsiville Watershed Implementation Plan</div>
+          <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
+          <div class="panel-footer">Responsible for cleaning data from redlining Documents using Python and the Pandas Library</div>
+          <center><button onclick="modPopup(this.className)" class="watershed_button"><strong>More Info Coming Soon!</strong></button></center>
+        </div>
+
+      </div>
+
+</div>
 
 <div class="w3-row w3-center w3-brown w3-padding-16">
   <div class="w3-quarter w3-section">
@@ -245,7 +334,7 @@
     Leadership Experience
   </div>
   <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">3</span><br>
+    <span class="w3-xlarge">4</span><br>
     Personal Projects
   </div>
   <div class="w3-quarter w3-section">
@@ -254,7 +343,7 @@
   </div>
   <div class="w3-quarter w3-section">
     <span class="w3-xlarge">3+</span><br>
-    Years Experience
+    Years Experience Building Apps
   </div>
 </div>
 
@@ -299,31 +388,15 @@
 
 <!-- Footer -->
 <footer class="w3-center w3-brown w3-padding-64">
-  <a href = "https://github.com/rjpadgett2"><i class="fa fa-github w3-hover-opacity fa-5x" style="color:green;"></i></a>Github
-  <a href = "https://www.linkedin.com/in/reginaldpadgett2/"><i class="fa fa-linkedin w3-hover-opacity fa-5x" style="color:green;"></i></a>LinkedIn
-  <a href = "my-resume (1).pdf"><i class="fa fa-file-text w3-hover-opacity fa-5x" style="color:green;"></i></a>Resume<br><br>
+  <a href = "https://github.com/rjpadgett2"><i class="fa fa-github w3-hover-opacity fa-5x" style="color:green;"></i></a>
+  <a href = "https://www.linkedin.com/in/reginaldpadgett2/"><i class="fa fa-linkedin w3-hover-opacity fa-5x" style="color:green;"></i></a>
+  <a href = "my-resume (1).pdf"><i class="fa fa-file-text w3-hover-opacity fa-5x" style="color:green;"></i></a><br><br>
   <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right" ></i>To the top</a>
 
 </footer>
 
 <!-- Add Google Maps -->
 <script>
-function myMap()
-{
-  myCenter=new google.maps.LatLng(41.878114, -87.629798);
-  var mapOptions= {
-    center:myCenter,
-    zoom:12, scrollwheel: false, draggable: false,
-    mapTypeId:google.maps.MapTypeId.ROADMAP
-  };
-  var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
-
-  var marker = new google.maps.Marker({
-    position: myCenter,
-  });
-  marker.setMap(map);
-}
-
 // Modal Image Gallery
 function onClick(element) {
   document.getElementById("img01").src = element.src;
@@ -354,74 +427,53 @@ function toggleFunction() {
 }
 </script>
 <script>
-// // Get the modal
-// var iadvisor-modal = document.getElementById('iadvisor_info');
-// var mapping-modal = document.getElementById('mapping_info');
-//
-// // Get the button that opens the modal
-// var iadvisor-btn = document.getElementById("iadvisor_button");
-// var mapping-btn = document.getElementById("mapping_button");
-//
-// // Get the <span> element that closes the modal
-// var iadvisor-span = document.getElementsByClassName("iadvisor-close")[0];
-// var mapping-span = document.getElementsByClassName("mapping-close")[0];
-//
-// // When the user clicks the button, open the modal
-// btn.onclick = function() {
-//     modal.style.display = "block";
-// }
-//
-// // When the user clicks on <span> (x), close the modal
-// span.onclick = function() {
-//     modal.style.display = "none";
-// }
-
 function modPopup(elem){
+
+  var modal;
+  var span;
+
     if (elem == 'iadvisor_button'){
-        var modal = document.getElementById('iadvisor_info');
-        var span = document.getElementsByClassName("iadvisor-close")[0];
+        modal = document.getElementById('iadvisor_info');
+        span = document.getElementsByClassName("iadvisor-close")[0];
         modal.style.display = "block";
 
-        window.onclick = function(event) {
-            if (event.target == modal) {
-                modal.style.display = "none";
-            }
-        }
-
-        span.onclick = function() {
-            modal.style.display = "none";
-        }
-    }else if(elem  == 'mapping_button'){
-      var modal = document.getElementById('mapping_info');
-      var span = document.getElementsByClassName("mapping-close")[0];
+    }else if(elem  == 'mapping_db_button'){
+      modal = document.getElementById('mapping_db_info');
+      span = document.getElementsByClassName("mapping-db-close")[0];
       modal.style.display = "block";
 
-      window.onclick = function(event) {
-          if (event.target == modal) {
-              modal.style.display = "none";
-          }
-        }
-
-        span.onclick = function() {
-            modal.style.display = "none";
-        }
+    }else if(elem == 'mapping_dc_button'){
+      modal = document.getElementById('mapping_dc_info');
+      span = document.getElementsByClassName("mapping-dc-close")[0];
+      modal.style.display = "block";
+    }else if (elem == 'homey_button') {
+      modal = document.getElementById('homey_info');
+      span = document.getElementsByClassName("homey-close")[0];
+      modal.style.display = "block";
+    }else if (elem == 'feelthebeat_button') {
+      alert("More Info Coming Soon!");
+      // modal = document.getElementById('fealthebeat_info');
+      // span = document.getElementsByClassName("fealthebeat-close")[0];
+      // modal.style.display = "block";
+    }else if (elem == 'watershed_button') {
+      alert("More Info Coming Soon!");
+      // modal = document.getElementById('watershed_info');
+      // span = document.getElementsByClassName("watershed-close")[0];
+      // modal.style.display = "block";
     }
 
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+      }
 
+      span.onclick = function() {
+          modal.style.display = "none";
+      }
 }
 
-// // When the user clicks anywhere outside of the modal, close it
-// window.onclick = function(event) {
-//     if (event.target == modal) {
-//         modal.style.display = "none";
-//     }
-// }
 </script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
-<!--
-To use this code on your website, get a free API key from Google.
-Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
--->
 
 </body>
 </html>

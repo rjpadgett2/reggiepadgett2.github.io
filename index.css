@@ -5,6 +5,11 @@ body, html {
     line-height: 1.8;
 }
 
+#titles{
+  color: black;
+  text-shadow: 0 0 3px #00ff00, 0 0 3px #00ff00;
+}
+
 
 /* Create a Parallax Effect */
 .bgimg-1, .bgimg-2, .bgimg-3 {
@@ -41,6 +46,41 @@ body, html {
         background-attachment: scroll;
     }
 }
+
+/*------------------The ABout Section CSS----------------------*/
+
+#about-title{
+  color:  #006600;
+
+}
+
+#about-p{
+  border-radius: 15px 50px 30px;;
+  background: #73AD21;
+  padding: 20px;
+  color: #ffffff;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+
+}
+
+#about-ex{
+  border-radius: 30px 50px 15px;;
+  border: 2px solid #73AD21;
+  padding: 20px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+
+
+}
+
+/*-------------------The Portfolio Section----------------------*/
+#experience-p{
+  border-radius: 30px 50px 15px;;
+  border: 2px solid #73AD21;
+  padding: 20px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+
+}
+
 
 /*Div pop-up attributes */
 
@@ -132,9 +172,9 @@ body, html {
     color: white;
 }
 
-/* Mapping Modal Content */
+/* Mapping DB Modal Content */
 
-.mapping-modal {
+.mapping-db-modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
@@ -147,7 +187,7 @@ body, html {
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
-.mapping-modal-content {
+.mapping-db-modal-content {
     position: relative;
     background-color: white;
     margin: auto;
@@ -173,31 +213,311 @@ body, html {
 }
 
 
-.mapping-modal-header {
+.mapping-db-modal-header {
     padding: 2px 16px;
     background-color:  #1a53ff;
     color: white;
 }
 
-.mapping-modal-body {padding: 2px 16px;}
+.mapping-db-modal-body {padding: 2px 16px;}
 
 /* The Close Button */
-.mapping-close {
+.mapping-db-close {
     color: white;
     float: right;
     font-size: 40px;
     font-weight: bold;
 }
 
-.mapping-close:hover,
-.mapping-close:focus {
+.mapping-db-close:hover,
+.mapping-db-close:focus {
     color: #000;
     text-decoration: none;
     cursor: pointer;
 }
 
-.mapping-modal-footer {
+.mapping-db-modal-footer {
     padding: 2px 16px;
     background-color:  #1a53ff;
     color: white;
+}
+
+/* Mapping DC Modal Content */
+
+.mapping-dc-modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.mapping-dc-modal-content {
+    position: relative;
+    background-color: white;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+
+.mapping-dc-modal-header {
+    padding: 2px 16px;
+    background-color:  #1a53ff;
+    color: white;
+}
+
+.mapping-dc-modal-body {padding: 2px 16px;}
+
+/* The Close Button */
+.mapping-dc-close {
+    color: white;
+    float: right;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.mapping-dc-close:hover,
+.mapping-dc-close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.mapping-dc-modal-footer {
+    padding: 2px 16px;
+    background-color:  #1a53ff;
+    color: white;
+}
+
+/* Homey Modal Content */
+
+.homey-modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.homey-modal-content {
+    position: relative;
+    background-color: white;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+
+.homey-modal-header {
+    padding: 2px 16px;
+    background-color:  #00ffff;
+    color: Black;
+}
+
+.homey-modal-body {padding: 2px 16px;}
+
+/* The Close Button */
+.homey-close {
+    color: white;
+    float: right;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.homey-close:hover,
+.homey-close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.homey-modal-footer {
+    padding: 2px 16px;
+    background-color:  #00ffff;
+    color: black;
+}
+
+/* FeelTheBeat Modal Content */
+
+.feelthebeat-modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.fealthebeat-modal-content {
+    position: relative;
+    background-color: white;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+
+.feelthebeat-modal-header {
+    padding: 2px 16px;
+    background-color:  #00ffff;
+    color: Black;
+}
+
+.feelthebeat-modal-body {padding: 2px 16px;}
+
+/* The Close Button */
+.feelthebeat-close {
+    color: white;
+    float: right;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.feelthebeat-close:hover,
+.feelthebeat-close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.feelthebeat-modal-footer {
+    padding: 2px 16px;
+    background-color:  #00ffff;
+    color: black;
+}
+
+/* Homey Modal Content */
+
+.watershed-modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.watershed-modal-content {
+    position: relative;
+    background-color: white;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+
+.watershed-modal-header {
+    padding: 2px 16px;
+    background-color:  #00ffff;
+    color: Black;
+}
+
+.watershed-modal-body {padding: 2px 16px;}
+
+/* The Close Button */
+.watershed-close {
+    color: white;
+    float: right;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.watershed-close:hover,
+.watershed-close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.watershed-modal-footer {
+    padding: 2px 16px;
+    background-color:  #00ffff;
+    color: black;
 }
