@@ -1,0 +1,678 @@
+body{
+	background-color: #f9f9f9;
+	font-family: "Crimson Text";
+}
+.container {
+	overflow-y:scroll;
+}
+
+.main{
+	background: #fff;
+}
+/* About Page Styling */
+#about:hover {
+	background-color: #FEFE8D;
+	color: black;
+}
+#about_scroll {
+	background-color: #FEFE8D;
+}
+#about-page {
+	background-color: #FEFE8D;
+	border: 2px;
+	border-color: black;
+}
+#about-container {
+	background-color: #FEFE8D;
+}
+#about-back-btn:hover {
+	background-color: black;
+	color: #FEFE8D;
+}
+
+/* Work Page Styling */
+#work:hover {
+	background-color: #0550FE;
+}
+#work_scroll {
+	background-color: #0550FE;
+}
+
+#work-back-btn:hover {
+	background-color: black;
+	color: #0550FE;
+}
+
+.work_right {
+	background-color: #0550FE;
+}
+
+#work-container {
+	background-color: #0550FE;
+}
+/* Contact Page Styling */
+#contact:hover {
+	background-color: pink;
+}
+
+#contact_scroll {
+	background-color: pink;
+}
+#contact-container {
+	background-color: pink;
+}
+
+#contact-back-btn:hover {
+	background-color: black;
+	color: pink;
+}
+
+.home-description{
+	font-style: italic;
+	font-weight: 600;
+	font-family: "Crimson";
+	font-size: 19px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    line-height: 29px;
+
+}
+
+.social a i{
+	height: 40px;
+	width: 40px;
+	border: 1px solid #111;
+	line-height: 40px;
+	margin: 0 10px;
+	color: #111;
+	font-size: 20px;
+	padding-bottom: 20px;
+	}
+
+.social a:hover i{
+	color: white;
+	border-color: white;
+	background-color: black;
+	}
+
+
+@media (min-width: 778px)
+{
+		.main{
+			height: 100vh;
+			/* overflow: hidden; */
+		}
+
+		.img-rabbit{
+			/*margin: 0 -15px;*/
+		}
+
+		.btn-group-vertical{
+    		padding: 20px 87.5px;
+    	}
+
+    	.info{
+			font-family: "Crimson";
+			line-height: 28px;
+		    font-size: 16px;
+		    padding-top: 15px;
+		    padding-right: 50px;
+		}
+
+		.home-description{
+			padding-right: 90px;
+			padding-left: 90px;
+
+		}
+}
+.img-rabbit{
+	width: 100%;
+}
+.btn-rabbit{
+	background-color: #fff;
+	color: #111;
+	font-style: italic;
+	border: 1px solid #111;
+	border-radius: 0px !important;
+	transition: all 0.4s ease-in-out;
+	margin-bottom: 20px;
+	font-family: "Crimson";
+	font-size: 13px;
+	}
+
+.btn-rabbit:hover{
+	color: #fff;
+	background-color: #bb9e7d;
+	border-color: #bb9e7d;}
+
+p{
+	color: #585757;
+	font-size: 16px;
+
+}
+
+.page-title{
+	text-transform: uppercase;
+	font-family: 'Josefin Sans';
+}
+
+/*Home Style*/
+.logo{
+	padding-top: 100px;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+.logo h4{
+	font-family: 'Josefin Sans';
+}
+
+
+footer{
+	padding: 22px 0 10px 0;
+	font-style: italic;
+	}
+
+
+.back{
+    width: 170px;
+    font-family: "Crimson";
+    font-size: 17px;
+    font-style: italic;
+    vertical-align: middle;
+    text-align: center;
+    display: block;
+    clear: both;
+    margin-top: 70px;
+}
+
+.back i{
+	margin-left: -40px;
+    margin-right: 17px;
+    font-size: 20px;
+}
+
+
+.form-control{
+	margin-top: 30px;
+	width: 75%;
+
+}
+
+.btn{
+	padding: 10px 60px;
+	height: 45px;
+	font-size: 16px;
+}
+
+.btn-group-vertical{
+    font-family: "Josefin Sans";
+}
+
+.about{
+	font-family: "Josefin Sans";
+	/*margin-top: 35px;*/
+	/*margin-bottom: 25px;*/
+	font-size: 32px;
+}
+}
+.form-control{
+	font-style: italic;
+	border-radius: 0;
+	font-family: "Crimson";
+	font-size: 16px;
+}
+
+.page-title{
+
+	font-size: 32px;
+	font-family: "Josefin Sans";
+}
+
+.fa-heartbeat{
+	    color: #bb9e7d;
+}
+
+::selection {
+	color: #fff;
+   	background-color: #bb9e7d;
+}
+
+.bottom{
+	padding-right: 20px;
+}
+
+.page-title{
+	position: relative;
+	display: inline-block;
+}
+
+.page-title:after,.page-title:before{
+	content: '';
+	position: absolute;
+	height: 1px;
+	background-color: black;
+	left: 0;
+	margin: 2px;
+}
+
+.social{
+	padding-bottom: 15px;
+}
+
+.submit{
+
+	font-family: "Crimson"
+	font-size: 16px;
+}
+
+.subtitle{
+	font-style: italic;
+	font-weight: 600;
+	font-size: 20px;
+	color: #3b3b3b;
+	line-height: 28px;
+	font-family: "Crimson";
+	margin-top: 15px;
+	margin-bottom: 20px;
+	padding-right: 40px;
+
+	}
+.page-title:after{
+	width: 75%;
+	top: -9px;
+
+}
+
+.page-title:before{
+	width: 40%;
+	bottom: -7px;
+}
+
+#watermark .marker{
+	position: absolute;
+	font-size: 60px;
+	opacity: 0.1;
+	font-family: "Josefin Sans";
+	text-transform: uppercase;
+	left: 0;
+	top: -5px;
+}
+
+#watermark{
+	position: relative;
+}
+
+.item{
+
+	background-color: #313131;
+	color: #f9f9f9;
+}
+
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+    /*margin-left: 0px;*/
+}
+
+.owl-theme .owl-controls {
+    margin-top: 10px;
+    margin-right: 10px;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: calc(44% - 40px);
+		}
+
+.owl-next{
+	right: 0;
+	padding-right: 1px;
+
+}
+
+.owl-prev{
+	left: 0;
+	padding-left: 1px;
+}
+
+
+
+.owl-theme .owl-controls .owl-nav [class*=owl-]{
+	position: absolute;
+	border-radius: 0px;
+	font-size: 21px;
+	padding: 15px 20px;
+	margin: 0px;
+	background-color: #fff;
+
+}
+
+.owl-theme .owl-controls .owl-nav [class*=owl-] i{
+	color: #333;
+
+}
+
+.owl-theme .owl-controls .owl-nav [class*=owl-]:hover{
+	background-color: #bb9e7d;
+	border-color: #bb9e7d;
+}
+.owl-theme .owl-controls .owl-nav [class*=owl-]:hover i{
+	color: #fff;
+}
+@media (max-width: 1024px) and (orientation: landscape){
+	.main{
+		height: auto;
+	}
+}
+.custom_btn{
+  -vendor-animation-duration: 3s;
+  -vendor-animation-delay: 2s;
+  -vendor-animation-iteration-count: infinite;
+}
+.show{
+	display: block;
+}
+
+/* Tooltip Design */
+.tooltip {
+
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Cube Rotation CSS  */
+.rotateCubeTopOut {
+  transform-origin: 50% 100%;
+  animation: rotateCubeTopOut .6s both ease-in;
+}
+
+.rotateCubeTopIn {
+  transform-origin: 50% 0%;
+  animation: rotateCubeTopIn .6s both ease-in;
+}
+
+.rotateCubeBottomOut {
+  transform-origin: 50% 0%;
+  animation: rotateCubeBottomOut .6s both ease-in;
+}
+
+
+.rotateCubeBottomIn {
+  transform-origin: 50% 100%;
+  animation: rotateCubeBottomIn .6s both ease-in;
+}
+
+@keyframes
+rotateCubeTopOut {  50% {
+animation-timing-function: ease-out;
+transform: translateY(-50%) translateZ(-200px) rotateX(45deg);
+}
+ 100% {
+opacity: .3;
+transform: translateY(-100%) rotateX(90deg);
+}
+}
+
+@keyframes
+rotateCubeTopIn {  0% {
+opacity: .3;
+transform: translateY(100%) rotateX(-90deg);
+}
+ 50% {
+animation-timing-function: ease-out;
+transform: translateY(50%) translateZ(-200px) rotateX(-45deg);
+}
+}
+
+@keyframes
+rotateCubeBottomOut {  50% {
+animation-timing-function: ease-out;
+transform: translateY(50%) translateZ(-200px) rotateX(-45deg);
+}
+ 100% {
+opacity: .3;
+transform: translateY(100%) rotateX(-90deg);
+}
+}
+
+@keyframes
+rotateCubeBottomIn {  0% {
+opacity: .3;
+transform: translateY(-100%) rotateX(90deg);
+}
+ 50% {
+animation-timing-function: ease-out;
+transform: translateY(-50%) translateZ(-200px) rotateX(45deg);
+}
+}
+
+/* ============================================== Portfolio ================================================================= */
+ul#filterOptions{
+margin: 0;
+padding: 3px 0;
+list-style: none;
+display: table;
+}
+
+ul#filterOptions li{
+ float:left;
+margin-right: -1px;
+}
+ul#filterOptions li span{
+padding: 10px 12px;
+display: block;
+color:#c4c4c4;
+}
+ul#filterOptions li a{
+color:#c4c4c4;
+font-size:18px;
+}
+ul#filterOptions li.cur a{
+ color:#7a7a7a;
+}
+ul#filterOptions li a:hover{
+ text-decoration:none;
+ color:#7a7a7a;
+}
+.box img{
+max-width:100%
+}
+.portfolio-item .thumbnail{
+margin:0;
+position:relative;
+}
+
+.linear{
+ transition:all 200ms linear;
+ -webkit-transition:all 200ms linear;
+ -moz-transition:all 200ms linear;
+ -ms-transition:all 200ms linear;
+ -o-transition:all 200ms linear;
+}
+.thumb-img{
+ position:relative;
+overflow:hidden;
+}
+.thumb-img a{
+display:block;
+background:#000;
+-webkit-transform: scale(1,1);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 250ms;
+    -moz-transform: scale(1,1);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 250ms;
+}
+.thumb-img a:hover{
+ -webkit-transform: scale(1.05,1.07);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 250ms;
+    -moz-transform: scale(1.05,1.07);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 250ms;
+}
+.thumb-img a:hover img{
+ opacity:0.7;
+}
+.folio-caption{
+ position:absolute;
+ bottom:-55px;
+ left:0;
+background:rgba(42, 163, 173, 0.8);
+width:100%;
+max-height:48px;
+}
+.folio-caption p{
+ color:#fff;
+ padding:15px;
+ margin:0;
+text-align:center;
+font-size:18px;
+}
+.portfolio-item {
+  margin: 0;
+  padding:0 0;
+}
+.main-folio{
+ margin:0 auto;
+ width:100%;
+padding:40px 0;
+position:relative;
+overflow:hidden;
+}
+ul.container_folio{
+ margin:0 0 0 0;
+padding:0 0;
+list-style:none;
+width:100% !important;
+
+}
+ul.container_folio li.box{
+margin:0;
+padding:0 15px;
+width:33.333%;
+
+float:left;
+}
+.col-md-12{
+ clear:both;
+}
+.img-portfolio {
+  margin: 0;
+}
+
+div.link{
+visibility:hidden;
+position:absolute;
+top:0;
+color:#fff;
+font-size:14px;
+}
+
+.thumbnail {
+border-radius: 0px;
+}
+
+
+/* ====================================  Project Modal Styling ================================================================= */
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: #0550FE;
+  color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+  padding: 2px 16px;
+  background-color: #0550FE;
+  color: white;
+}

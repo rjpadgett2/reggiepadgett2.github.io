@@ -1,481 +1,351 @@
 <!DOCTYPE html>
-<html>
-<title>Reggie Padgett Personal Website</title>
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
-<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-<link rel="stylesheet" href="index.css">
-
-</head>
-<body>
-
-<!-- Navbar (sit on top) -->
-<div class="w3-top w3-brown" >
-  <div class="w3-bar" id="myNavbar">
-    <a class="w3-bar-item w3-button w3-hover-green w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
-      <i class="fa fa-bars"></i>
-    </a>
-    <a href="#home" class="w3-bar-item w3-button">HOME</a>
-    <a href="#about" class="w3-bar-item w3-button w3-hover-green w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
-    <a href="#portfolio" class="w3-bar-item w3-button w3-hover-green w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
-    <a href="#contact" class="w3-bar-item w3-button w3-hover-green w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-green">
-      <i class="fa fa-search"></i>
-    </a>
-  </div>
-
-  <!-- Navbar on small screens -->
-  <div id="navDemo" class="w3-bar-block w3-brown w3-hide w3-hide-large w3-hide-medium">
-    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
-    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
-    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
-    <!-- <a href="#" class="w3-bar-item w3-button">SEARCH</a> -->
-  </div>
-</div>
-
-<!-- First Parallax Image with Logo Text -->
-<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
-  <div class="w3-display-middle" style="white-space:nowrap;">
-    <span class="w3-center w3-padding-large w3-brown w3-xlarge w3-wide w3-animate-opacity">Solving Problems With Software</span>
-  </div>
-</div>
-
-<!-- Container (About Section) -->
-<div class="w3-content w3-container w3-padding-64" id="about">
-  <h3 class="w3-center" id = "about-title">ABOUT ME</h3>
-  <center><img src="sprout-plant.png" alt="Sprouting Plant" width="100" height="200"></center>
-  <center><em><h4>Background</h4></em></center>
-  <p id = "about-p">I was born and raised in the D.C. area to an amazing single mother. My mom often times saw talents in me I could not see in myself.
-  As a child, it seemed as though any task that required putting things together or figuring things out was impossible without my input or assistance.
-Every piece of furniture, every wall that needed to be painted, and evertime anything other than the car broke it was my job to figure out how to fix it.
-And when I did not know how to fix it my mom would always respond with <strong>"Reggie, Your smart you will figure it out"</strong>. As a child this line used
-to make me so mad but I always did end up figuring out. An important part of engineering is figuring out solutions to problems you do not know the answer to.
-I found myelf frequently in this situation.</p>
-  <div class="w3-row">
-    <div class="w3-col m6 w3-center w3-padding-large">
-      <p><b><i class="fa fa-user w3-margin-right"></i>Reggie Padgett II</b></p><br>
-      <img src="profile.JPG" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333">
-    </div>
-
-    <!-- Hide this text on small devices -->
-    <div class="w3-col m6 w3-hide-small w3-padding-large">
-      <h4>Software Developer by Accident</h4>
-      <p id = "about-ex"> When I started my collegiate career, I wanted to be a mechanical engineer. <Strong>As a child I was always interested in building putting things together and taking them apart</strong> and so I thought Mechanical Engineering was for me. Unfortunately, that did not work out. I was so discouraged because I was sure that Mehcanical Engineering was what I was meant to do. I ended up taking some computer science classes just to see if CS would be a possible alternative. With no prior coding experience, I found the classes quite difficult. But, I learned about the plethora of things that could be built with software and I was hooked! I love the diversity of software development and I love how it can be applied to everything we do. I found my passion in software development and I am always looking at ways to improve my technical skills and to apply them to problems in my everyday life. I realized that
-        <strong>I was meant to build products with a keyboard and mouse and not with a hammer and screwdriver. </strong>
-      </p>
-    </div>
-  </div>
+        <!-- <script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src="js/cubeTransition.js"></script>
+        <script src="jquery.mousewheel.js"></script>
+        <script src="jquery.touchSwipe.js"></script>
+        <link rel="stylesheet" href="assets/css/owl.carousel.css">
+        <link rel="stylesheet" href="assets/css/owl.theme.css">
+        <link rel="stylesheet" href="assets/css/animate.css"> -->
 
 
-</div>
+        <title>Reginald Padgett II Portfolio Page</title>
+        <link rel="icon" type="image/icon" href="assets/images/tabicon.ico">
 
-<div class="w3-center w3-row  w3-brown w3-padding-16">
-  <!-- <div class="w3-quarter w3-section">
-    <a href = "https://github.com/rjpadgett2"><i class="fa fa-github w3-hover-opacity fa-5x"></i></a><br>
-    Github
-  </div>
-  <div class="w3-quarter w3-section">
-    <a href = "https://www.linkedin.com/in/reginaldpadgett2/"><i class="fa fa-linkedin w3-hover-opacity fa-5x"></i></a><br>
-    LinkedIn
-  </div>
-  <div class="w3-quarter w3-section">
-  <a href = "my-resume (1).pdf"><i class="fa fa-file-text w3-hover-opacity fa-5x"></i></a><br>
-    Resume
-  </div> -->
-</div>
+        <link rel="stylesheet" type="text/css" href="">
+        <link href="assets/css/prettyPhoto.css" rel="stylesheet">
+        <link href="assets/css/bootstrap-theme1.min.css" rel="stylesheet">
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+        <link href="assets/css/bootstrap-theme.min.css" rel="stylesheet">
+        <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700,700i" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,700,700i|Josefin+Sans:700" rel="stylesheet">
+        <link href="assets/css/main.css" rel="stylesheet">
+        <link rel="icon" href="assets/images/logo.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 
-<!-- Second Parallax Image with Portfolio Text -->
-<div class="bgimg-2 w3-display-container w3-opacity-min">
-  <div class="w3-display-middle">
-    <span class="w3-center w3-padding-large w3-brown w3-xlarge w3-wide w3-animate-opacity">PORTFOLIO</span>
-  </div>
-</div>
-<div id="portfolio">
-  <h3 class="w3-center">MY Projects</h3>
-  <h4 class="w3-center">Full Stack Developer</h4>
-  <p id = "experience-p" class="w3-center">I really enjoy developing the full stack when it comes to software development. I am mostly interested in Full Stack, Technical Program
-    Managment, and Web Developer positions since this is where I have the most experinece. I have experince in
-    <strong>database design with SQL and MySQL workbench</strong>. I also have very limited experince in NoSQL databases mostly in
-      MongoDB. I have worked with <strong>server-side applications in PHP and Node.JS</strong>. Lastly, I have worked on the <strong>
-      Front-End in JavaScript, HTML/CSS, JQuery, and Bootstrap</strong>. For me, the greatest joy I have is watching an app be developed
-      from the ground up and seeing the different parts act as one. While I do not have much industry experience, I have quite a few personal projects. Most of these are projects I work
-    on in my free time outside of school and work.</p><br>
+    </head>
 
-      <div class="container">
-    <div class="row">
-
-<!--    *******************   Mapping Inequality  ******************   --->
-
-      <div class="col-sm-4">
-        <div class="panel-success">
-          <div class="panel-heading">Mapping Inequality - Database Design Team</div>
-          <div class="panel-body"><img src="mapping.png" class="img-responsive" style="width:100%" alt="Image"></div>
-          <div class="panel-footer">Constructing relational database's connecting five different document structures and designed queries to efficiently gather data between them</div>
-          <center><button onclick="modPopup(this.className)" class="mapping_db_button"><strong>More Info</strong></button></center>
-        </div>
-      </div>
-
-      <!-- The Modal -->
-      <div id="mapping_db_info" class="mapping-db-modal">
-
-        <!-- Modal content -->
-        <div class="mapping-db-modal-content">
-          <div class="mapping-db-modal-header">
-            <span class="mapping-db-close">&times;</span>
-            <center><h2>Mapping Inequality - Database Design Team</h2></center>
-            <center><img src = "mapping.png" lt="imapping_logo" height="300" width="300"></center>
-          </div>
-          <div class="mapping-db-modal-body">
-            <center><p><h2>Analyzing Redlining Data in the USA</h2></p></center>
-            <center><p><h4>General Description</h4></p></center>
-            <p>Our team is working on building a database that makes sense of the redlining data in the USA. The data is recorded on papers
-              from the early 20th century and our job is to transcribe the data and analyze it. I am serving as team lead of the Database Management team that
-          is tasked with building a relational databse that ties in all the different document types together in an easy to read queryable database. The goal
-        is to have a front end interface that will allow the user to easily analyze the data.</p>
-        <center><p><h4>Technology Used</h4></p></center>
-        <p>We are building the database using MySQL workbench. The goals is develop a series of queries that will asist data analyzation</p>
-          </div>
-          <div class="mapping-db-modal-footer">
-            <p></P>
-          </div>
-        </div>
-
-      </div>
-<!--    *******************   iAdvisor ******************   --->
-      <div class="col-sm-4">
-        <div class="panel-success">
-          <div class="panel-heading">iAdvisor</div>
-          <div class="panel-body"><img src="iadvisor.png" class="img-responsive" style="width:100%" alt="Image"></div>
-          <div class="panel-footer">Online advising system that takes student info and keeps track of student classes and requirements</div>
-          <center><button onclick="modPopup(this.className)" class="iadvisor_button"><strong>More Info!</strong></button></center>
-        </div>
-      </div>
-
-      <!-- The Modal -->
-      <div id="iadvisor_info" class="iadvisor-modal">
-
-        <!-- Modal content -->
-        <div class="iadvisor-modal-content">
-          <div class="iadvisor-modal-header">
-            <span class="iadvisor-close">&times;</span>
-            <center><h2>iAdvisor</h2></center>
-            <center><img src = "iadvisor_logo.jpg" lt="iAdvisor_logo" height="300" width="300"></center>
-          </div>
-          <div class="iadvisor-modal-body">
-            <center><p><h2>The Online Advising System</h2></p></center>
-            <center><p><h4>General Description</h4></p></center>
-            <p>iAdvisor is an online 4 year plan building system that uses the students
-            past class history to build a 4 year plan. The program will automatically check
-            for cases like too many credits, too little credits, ensure the correct class order,
-            and keep track of classes needed to complete thier degree. The students will be able to send thier agenda in a CSV
-            format to advisors in the iSchool at the University of Maryland College Park so it can be inserted into thier database.
-            The goal for this project is to make managing multiple student 4 year plans easier for advisors and make creating 4 year
-            plans less complicated for the students.</p>
-        <center><p><h4>Technology Used</h4></p></center>
-        <p>The program uses JavaScript, JQuery, Bootstrap, HTML, and CSS for the front end interface as well as form
-        and 4 year plan builder. PHP is used on the back-end to process request and MySQL is used as the database.
-      We are using the Google Sign-In API to keep track of users and their state. We are using the Google Clooud platform to host
-    the website.</p>
-        <center><p><h4>Demo</h4></p></center>
-
-          <!-- Screen Shots -->
-          <center><p><h4>Screen Shots</h4></p></center>
-              <div id="myCarousel" class="carousel slide" data-ride="carousel">
-              <!-- Indicators -->
-              <ol class="carousel-indicators">
-                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#myCarousel" data-slide-to="1"></li>
-                <li data-target="#myCarousel" data-slide-to="2"></li>
-              </ol>
-
-              <!-- Wrapper for slides -->
-              <div class="carousel-inner">
-                <div class="item active">
-                  <img src="iadvisor.png" alt="Los Angeles">
+    <body>
+        <div id="index">                                           <!-- Index starts here -->
+            <div class="container main">
+                <div class="row home">
+                    <div id = "index_left" class="col-md-6 left">
+                        <img class="img-responsive img-rabbit" src="assets/images/home.jpg">
+                    </div>
+                    <div id = "index_right" class="col-md-6 text-center right">
+                        <div class="logo">
+                            <img src="assets/images/logo.png">
+                            <h4>Reginald Jerome Padgett II</h4>
+                            <h5>Full Stack Developer</h5>
+                        </div>
+                        <p class="home-description">
+                            My name is Reggie Padgett and I love turning intagible code to tangible products.
+                        </p>
+                        <div class="btn-group-vertical custom_btn animated slideinright">
+                            <div id="about" class="btn btn-rabbit">About</div>
+                            <div id="work" class="btn btn-rabbit">Work</div>
+                            <div id="contact" class="btn btn-rabbit">Contact</div>
+                        </div>
+                        <div class="social">
+                            <a href="my-resume.pdf"><i class="fa fa-file-text-o" aria-hidden="true"></i></a>
+                            <a href="https://github.com/rjpadgett2"><i class="fa fa-github" aria-hidden="true"></i></a>
+                            <a href="https://www.linkedin.com/in/reginaldpadgett2/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="item">
-                  <img src="iadvisor_form.png" alt="Chicago">
+
+            </div>
+        </div>                                                      <!-- index ends here -->
+
+        <div id="about_scroll" class="pages ">                      <!-- about strats here  -->
+            <div class="container main" id = "about-container">
+                <div class="row" id = "about-page">
+                    <div class="col-md-6 left" id="about_left">
+                        <img class="img-responsive img-rabbit" src="assets/images/about.jpeg">
+                    </div>
+
+                    <div class="col-md-6 right" id="about_right">
+                        <a id = "about-back-btn" href="#index" class="btn btn-rabbit back"> <i class="fa fa-angle-left" aria-hidden="true"></i> Back to home </a>
+                        <div id="watermark">
+                            <h2 class="page-title" text-center>About</h2>
+                            <div class="marker">a</div>
+                        </div>
+                        <p class='subtitle'>Hi, My name is Reggie Padgett and I am a Full Stack Software Developer based in the D.C. Metropolitan area.
+                        </p>
+
+                        <p class="info">"I recently graduated from the University of Maryland College Park with a degree in Information Science. I specialize in web development and building webb apps. I also have expereince in ML/Data Science as well as limited experience
+                          in Data cleaning and Database management."</p>
+                    </div>
                 </div>
+            </div>
+        </div>                                                                <!-- About ends here -->
 
-                <div class="item">
-                  <img src="iadvisor_plan.png" alt="New York">
+
+
+        <div id="work_scroll" class="pages">                                  <!-- Work starts here -->
+          <div id="work" class="page page-bgcolor">
+          <!-- /Portfolio -->
+            <div id = "work-container" class="container main">
+                <div class="row">
+                    <div id="work_right">
+                        <a id = "work-back-btn" href="#index" class="btn btn-rabbit back"> <i class="fa fa-angle-left" aria-hidden="true"></i> Back to Home </a>
+                        <div class="container">
+                      <div class="row">
+                            <div class="col-md-10  col-md-offset-1">
+                          <div class="build title-page-gray">
+                          <h2 class="text-center">My Latest Work</h2>
+                          <span class="line-title"></span>
+                        </div>
+                         </div><!-- end col -->
+                        </div><!-- end row -->
+                         <div class="col-md-12">
+                                  <div class="build">
+                                  <ul id="filterOptions" class="clearfix">
+                                      <li class="cur"><a class="all btn btn-link linear" href="#">Web</a></li>
+                                      <!-- <li><span>/</span></li>
+                                      <li><a class="mobile btn btn-link linear" href="#" >Mobile</a></li>
+                            <li><span>/</span></li>
+                                      <li><a class="ilustrator btn btn-link linear" href="#">Ilustrator</a></li> -->
+
+                                  </ul>
+                                   </div>
+                              </div><!--end-col-->
+                        <div class="col-md-12">
+                        <div class="folio-content">
+                         <div class="row">
+                         <ul class="container_folio clearfix gallery">
+                        <li class="box" data-id="id-1" data-type="ilustrator">
+                        <div class="folio-img build">
+                          <div class="portfolio-item ">
+                            <div class="thumbnail">
+                               <div id = "iadvisor-div" class="thumb-img" onclick = "projectModal(this)">
+                               <a href="#" data-gal="prettyPhoto[gallery2]" title="iAdvisor">
+                                  <img class="linear img-portfolio img-responsive" src="assets/images/portfolio/iadvisor-home.png" alt="This Is Image">
+                               </a>
+
+                               <div class="folio-caption animated">
+                                   <p>This is Folio Caption</p>
+
+                               </div>
+                               </div>
+                            </div>
+
+                          </div>
+                        </div>
+                        </li>
+                        <li class="box" data-id="id-2" data-type="ilustrator">
+                          <div class="folio-img build">
+                            <div class="portfolio-item">
+                              <div class="thumbnail">
+                              <div id = "pbd-div" class="thumb-img" onclick = "projectModal(this)">
+                              <a href="#" data-gal="prettyPhoto[gallery2]" title="This Is Image Title">
+                                <img class="linear img-portfolio img-responsive" src="assets/images/portfolio/pbd-home.png" alt="PbDBoard Game"></a>
+
+                              <div class="folio-caption">
+                                   <p>This is Folio Caption</p>
+                               </div>
+                              </div>
+                                </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="box" data-id="id-3" data-type="ilustrator">
+                          <div class="folio-img build">
+                            <div class="portfolio-item">
+                              <div class="thumbnail">
+                              <div id = "pkmn-div" class="thumb-img" onclick = "projectModal(this)">
+                               <a href="#" data-gal="prettyPhoto[gallery2]" title="This Is Image Title">
+                                 <img class="linear img-portfolio img-responsive" src="assets/images/portfolio/pkmn-home.png" alt="This Is Image"></a>
+
+                                 <div class="folio-caption">
+                                   <p>This is Folio Caption</p>
+                                   </div>
+                                   </div>
+                              </div>
+
+                            </div>
+                          </div>
+                        </li>
+                         </ul>
+                         </div>
+                        </div><!-- end folio content -->
+                        </div><!-- end col -->
+                        </div><!--end container-->
+
+
+                      </div>
+                    </div>
                 </div>
-              </div>
-
-              <!-- Left and right controls -->
-              <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right"></span>
-                <span class="sr-only">Next</span>
-              </a>
-              </div>
-
-          </div>
-          <div class="iadvisor-modal-footer">
-            <a href = "https://github.com/rjpadgett2/iAdvisor-"><center><h3 style="color:white;">Show Me the Code!</h3></center></a>
-          </div>
-        </div>
-
-      </div>
-
-<!--    *******************   Homey  ******************   --->
-      <div class="col-sm-4">
-        <div class="panel panel-success">
-          <div class="panel-heading">Homey</div>
-          <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-          <div class="panel-footer">Takes in user age, ethnicity, budget, job location, and family size to determine best area to live in Toronto area. This Project took 2nd place in
-          the National Society of Black Engineers 44th Annual Hackathon.</div>
-          <center><button onclick="modPopup(this.className)" class="homey_button"><strong>More Info</strong></button></center>
-        </div>
-
-          <!-- The Modal -->
-          <div id="homey_info" class="homey-modal">
-
-            <!-- Modal content -->
-            <div class="homey-modal-content">
-              <div class="homey-modal-header">
-                <span class="homey-close">&times;</span>
-                <center><h2>Homey - Neighborhood Relocation Web App</h2></center>
-                <!-- <center><img src = "mapping.png" lt="imapping_logo" height="300" width="300"></center> -->
-              </div>
-              <div class="homey-modal-body">
-                <center><p><h2>Homey - Web App</h2></p></center>
-                <center><p><h4>General Description</h4></p></center>
-                <p>The app Takes in user age, ethnicity, budget, job location, and family size to determine best area to live in Toronto area. It then sections off the neighborhoods in Tronoto based
-                  on these criteria. <br><br>More Info Coming Soon </p>
-            <center><p><h4>Technology Used</h4></p></center>
-            <p>We used Node.js for the backend as well as Angular.js for the frontend.</p>
-              </div>
-              <div class="homey-modal-footer">
-                <a href = "https://github.com/rjpadgett2/nsbe44-blackhack"><center><h3 style="color:black;">Show Me the Code!</h3></center></a>
-              </div>
             </div>
         </div>
+                                                                   <!-- Work Modal  -->
+                                                                   <!-- Trigger/Open The Modal -->
+      <!-- The Modal -->
+      <div id="iadvisor-modal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <div class="modal-header">
+            <span class="close">&times;</span>
+            <center><h2>iAdvisor Web App</h2></center>
+          </div>
+          <div class="modal-body">
+            <div class="w3-content w3-display-container">
+              <img class="iadv-Slides" src="assets/images/portfolio/iadvisor-home.png" style="width:100%">
+              <img class="iadv-Slides" src="assets/images/portfolio//iadvisor/4year-plan.png" style="width:100%">
 
-      </div>
-
-    <!--    *******************   Maping Inequality - Data Cleaning  ******************   --->
-          <div class="col-sm-4">
-            <div class="panel panel-success">
-              <div class="panel-heading">Mapping Inequality - Data Cleaning Team</div>
-              <div class="panel-body"><img src="mapping.png" class="img-responsive" style="width:100%" alt="Image"></div>
-              <div class="panel-footer">Responsible for cleaning data from redlining Documents using Python and the Pandas Library</div>
-              <center><button onclick="modPopup(this.className)" class="mapping_dc_button"><strong>More Info</strong></button></center>
+              <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+              <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
             </div>
-            <!-- The Modal -->
-            <div id="mapping_dc_info" class="mapping-dc-modal">
-
-              <!-- Modal content -->
-              <div class="mapping-dc-modal-content">
-                <div class="mapping-dc-modal-header">
-                  <span class="mapping-dc-close">&times;</span>
-                  <center><h2>Mapping Inequality - Data Cleaning Team</h2></center>
-                  <center><img src = "mapping.png" lt="imapping_logo" height="300" width="300"></center>
-                </div>
-                <div class="mapping-dc-modal-body">
-                  <center><p><h2>Analyzing Redlining Data in the USA</h2></p></center>
-                  <center><p><h4>General Description</h4></p></center>
-                  <p>Our team is taked with cleaning the redlining data from St. Petersburg Florida. The goal is to organize the data in a way that is readible and categorizable.
-                  The original data file has many unordered elements that need to be categroized and organized</p>
-              <center><p><h4>Technology Used</h4></p></center>
-              <p>We utilized the Panda Library and Jupyter notebook to complete this project.</p>
-                </div>
-                <div class="mapping-dc-modal-footer">
-                  <!-- <a href = ""><center><h3 style="color:white;">Show Me the Code!</h3></center></a> -->
-                </div>
-              </div>
+            <a href = "http://35.243.145.160/"><i class="fa fa-desktop fa-2x" aria-hidden="true"> iAdvisor Web App</i></a>
+            <br>
+            <a href = "https://github.com/rjpadgett2/iAdvisor"><i class="fa fa-github-alt fa-2x" aria-hidden="true"> Show Me The Code</i></a>
+            <p>iAdvisor was started in my web design class as a class projects. It has and continues to evolve into a functioning web app and the hope is it will help resolve the problems the InfoSci department faces by streamlining the four year planning process and allowing students to quickly and efficiently build thier schedule and allow advisors to view many students at a glance and provide feedback. The goal is for advisors to be able to accommodate many students at once and for students to have the freedom of four year planning at thier convenience.</p>
+            <p>
+              <h4>Technologies Used</h4>
+              <ul>
+                <li>Hosted: Goolge Cloud Platform</li>
+                <li>Frontend: JavaScript/HTML/CSS</li>
+                <li>BackEnd: PHP</li>
+                <li>DataBase: SQL/MySQL WorkBench</li>
+              </ul>
+            </p>
           </div>
-          </div>
-
-<!--    *******************   FealTheBeat App  ******************   --->
-      <div class="col-sm-4">
-        <div class="panel panel-success">
-          <div class="panel-heading">FeelTheBeat</div>
-          <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-          <div class="panel-footer">Predics Dance Moves based on pitch, tone, and rhythym of song using Echonest API</div>
-          <center><button onclick="modPopup(this.className)"  class="feelthebeat_button"><strong>More Info Coming Soon!</strong></button></center>
-        </div>
-
-      </div>
-
-<!--    *******************   Watershed  ******************   --->
-      <div class="col-sm-4">
-        <div class="panel panel-success">
-          <div class="panel-heading">Hyattsiville Watershed Implementation Plan</div>
-          <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-          <div class="panel-footer">Responsible for cleaning data from redlining Documents using Python and the Pandas Library</div>
-          <center><button onclick="modPopup(this.className)" class="watershed_button"><strong>More Info Coming Soon!</strong></button></center>
-        </div>
-
-      </div>
-
-</div>
-
-</div>
-
-<div class="w3-center w3-row  w3-brown ">
-  <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">4 Years</span><br>
-    Leadership Experience
-  </div>
-  <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">4</span><br>
-    Personal Projects
-  </div>
-  <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">10+ Hours</span><br>
-    Weekly Community Service
-  </div>
-  <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">3+</span><br>
-    Years Experience Building Apps
-  </div>
-</div>
-
-
-<!-- Third Parallax Image with Portfolio Text -->
-<div class="bgimg-3 w3-display-container w3-opacity-min">
-  <div class="w3-display-middle">
-    <span class="w3-center w3-padding-large w3-brown w3-xlarge w3-wide w3-animate-opacity">CONTACT</span>
-  </div>
-</div>
-
-<!-- Container (Contact Section) -->
-<div class="w3-content w3-container w3-padding-64" id="contact">
-  <h3 class="w3-center">Contact Me</h3>
-  <p class="w3-center"><em>I'd love your feedback!</em></p>
-
-  <div class="w3-row w3-padding-32 w3-section">
-    <div class="w3-col m8 w3-panel">
-      <div class="w3-large w3-margin-bottom">
-        <!-- <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: 301-437-4950<br> -->
-        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: reggie.padgett2@gmail.com<br>
-      </div>
-      <p><i class="fa fa-code"></i>Feel free contact me about my projects/experience , or to talk tech:
-      <i class="fa fa-code"></i></p>
-      <form action= "action_page.php" method = "POST">
-        <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
-          <div class="w3-half">
-            <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
-          </div>
-          <div class="w3-half">
-            <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+          <div class="modal-footer">
+            <h3></h3>
           </div>
         </div>
-        <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
-        <button class="w3-button w3-brown w3-right w3-section" type="submit">
-          <i class="fa fa-paper-plane" style="color:green;"></i> SEND MESSAGE
-        </button>
-      </form>
-    </div>
-  </div>
-</div>
+      </div>
+      <!-- The Modal -->
+      <div id="pbd-modal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <div class="modal-header">
+            <span class="close">&times;</span>
+            <cetner><h2>PBDBoard Board Game Web App</h2></center>
+          </div>
+          <div class="modal-body">
+            <div class="w3-content w3-display-container">
+              <img class="pbd-Slides" src="assets/images/portfolio/pbd-home.png" style="width:100%">
+              <img class="pbd-Slides" src="assets/images/portfolio//pbdboardgame/1.png" style="width:100%">
+              <img class="pbd-Slides" src="assets/images/portfolio//pbdboardgame/3.png" style="width:100%">
+              <img class="pbd-Slides" src="assets/images/portfolio//pbdboardgame/3.png" style="width:100%">
+              <img class="pbd-Slides" src="assets/images/portfolio//pbdboardgame/4.png" style="width:100%">
+              <img class="pbd-Slides" src="assets/images/portfolio//pbdboardgame/5.png" style="width:100%">
 
-<!-- Footer -->
-<footer class="w3-center w3-brown w3-padding-64">
-  <a href = "https://github.com/rjpadgett2"><i class="fa fa-github w3-hover-opacity fa-5x" style="color:green;"></i></a>
-  <a href = "https://www.linkedin.com/in/reginaldpadgett2/"><i class="fa fa-linkedin w3-hover-opacity fa-5x" style="color:green;"></i></a>
-  <a href = "my-resume (1).pdf"><i class="fa fa-file-text w3-hover-opacity fa-5x" style="color:green;"></i></a><br><br>
-  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right" ></i>To the top</a>
+              <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+              <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+            </div>
+            <a href = "https://pbdboardgame.appspot.com/"><i class="fa fa-desktop fa-2x" aria-hidden="true"> PbDBoardGame Web App</i></a>
+            <br>
+            <a href = "https://github.com/rjpadgett2/PbDBoardGame"><i class="fa fa-github-alt fa-2x" aria-hidden="true"> Show Me The Code</i></a>
 
-</footer>
+            <p>This Web App was designed for a Professor in the Information Science Department at UMD. The game is meant to simulate the risk and
+            process of building an app based on decisions simulated in the board game. See the Instructions on the website or the github for more instructions
+          </p>
+          <p>
+            <h4>Technologies Used</h4>
+            <ul>
+              <li>Hosted: Goolge Cloud Platform</li>
+              <li>Frontend: JavaScript/HTML/CSS</li>
+              <li>BackEnd: Node.JS</li>
+              <li>DataBase: MongoDB/MLab</li>
+            </ul>
+          </p>
+          </div>
+          <div class="modal-footer">
+            <h3></h3>
+          </div>
+        </div>
+      </div>
+      <!-- The Modal -->
+      <div id="pkmn-modal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <div class="modal-header">
+            <span class="close">&times;</span>
+            <center><h2>Pkmn Database</h2></center>
+          </div>
+          <div class="modal-body">
+            <div class="w3-content w3-display-container">
+              <img class="pkmn-Slides" src="assets/images/portfolio/pkmn-home.png" style="width:100%">
+              <img class="pkmn-Slides" src="assets/images/portfolio//pkmn/1.png" style="width:100%">
+              <img class="pkmn-Slides" src="assets/images/portfolio//pkmn/2.png" style="width:100%">
 
-<!-- Add Google Maps -->
-<script>
-// Modal Image Gallery
-function onClick(element) {
-  document.getElementById("img01").src = element.src;
-  document.getElementById("modal01").style.display = "block";
-  var captionText = document.getElementById("caption");
-  captionText.innerHTML = element.alt;
-}
 
-// Change style of navbar on scroll
-window.onscroll = function() {myFunction()};
-function myFunction() {
-    var navbar = document.getElementById("myNavbar");
-    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
-    } else {
-        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
-    }
-}
+              <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+              <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+            </div>
+            <a href = "https://secure-meadow-28015.herokuapp.com/"><i class="fa fa-desktop fa-2x" aria-hidden="true"> Pokemon Web App</i></a>
+            <br>
+            <a href = "https://github.com/rjpadgett2/pokemon-api"><i class="fa fa-github-alt fa-2x" aria-hidden="true"> Show Me The Code</i></a>
 
-// Used to toggle the menu on small screens when clicking on the menu button
-function toggleFunction() {
-    var x = document.getElementById("navDemo");
-    if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
-    } else {
-        x.className = x.className.replace(" w3-show", "");
-    }
-}
-</script>
-<script>
-function modPopup(elem){
+            <p>Simple Web Pokemon First Generation Database</p>
+            <p>
+              <ul>
+                <li>Hosted: Heroku</li>
+                <li>Frontend: JavaScript/HTML/CSS</li>
+                <li>BackEnd: Node.JS</li>
+              </ul>
+            </p>
+          </div>
+          <div class="modal-footer">
+            <h3>Modal Footer</h3>
+          </div>
+        </div>
+      </div>
 
-  var modal;
-  var span;
 
-    if (elem == 'iadvisor_button'){
-        modal = document.getElementById('iadvisor_info');
-        span = document.getElementsByClassName("iadvisor-close")[0];
-        modal.style.display = "block";
 
-    }else if(elem  == 'mapping_db_button'){
-      modal = document.getElementById('mapping_db_info');
-      span = document.getElementsByClassName("mapping-db-close")[0];
-      modal.style.display = "block";
 
-    }else if(elem == 'mapping_dc_button'){
-      modal = document.getElementById('mapping_dc_info');
-      span = document.getElementsByClassName("mapping-dc-close")[0];
-      modal.style.display = "block";
-    }else if (elem == 'homey_button') {
-      modal = document.getElementById('homey_info');
-      span = document.getElementsByClassName("homey-close")[0];
-      modal.style.display = "block";
-    }else if (elem == 'feelthebeat_button') {
-      alert("More Info Coming Soon!");
-      // modal = document.getElementById('fealthebeat_info');
-      // span = document.getElementsByClassName("fealthebeat-close")[0];
-      // modal.style.display = "block";
-    }else if (elem == 'watershed_button') {
-      alert("More Info Coming Soon!");
-      // modal = document.getElementById('watershed_info');
-      // span = document.getElementsByClassName("watershed-close")[0];
-      // modal.style.display = "block";
-    }
 
-    window.onclick = function(event) {
-        if (event.target == modal) {
-            modal.style.display = "none";
-        }
-      }
 
-      span.onclick = function() {
-          modal.style.display = "none";
-      }
-}
+                                                                   <!-- Work ends here  -->
 
-</script>
 
-</body>
+        <div id="contact_scroll" class="pages">                             <!-- Contact starts here -->
+            <div id = "contact-container" class="container main">
+                <div class="row">
+                    <div class="col-md-6 left" id="contact_left">
+                        <img class="img-responsive img-rabbit" src="assets/images/contact.jpg">
+                    </div>
+
+                    <div class="col-md-6 right" id="contact_right">
+                        <a id = "contact-back-btn" href="#index" class="btn btn-rabbit back"> <i class="fa fa-angle-left" aria-hidden="true"></i> Back to Home </a>
+                        <div id="watermark">
+                            <h2 class="page-title" text-center>Contact</h2>
+                            <div class="marker">c</div>
+                        </div>
+                        <p class='subtitle'>Feel fee to contact me via the below form or on LinkedIn
+                        </p>
+                        <!-- form -->
+                        <form class="form_edit" action= "action_page.php" method = "POST">
+                            <div class="form-group">
+                                <input type="name" class="form-control" id="exampleInputName" placeholder="Name">
+                            </div>
+                            <div class="form-group">
+                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                            </div>
+                            <div class="form-group">
+                            <textarea class="form-control" rows="5" placeholder="Message"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-rabbit submit">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>                                                              <!-- Contact ends here -->
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/script.js"></script>
+    </body>
 </html>
