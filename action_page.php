@@ -1,7 +1,8 @@
 <?php
-$name = $_POST['Name'];
-$visitor_email = $_POST['Email'];
-$message = $_POST['Message'];
+
+$name = $_POST['name'];
+$visitor_email = $_POST['email'];
+$message = $_POST['message'];
 //Validate first
 if(empty($name)||empty($visitor_email))
 {

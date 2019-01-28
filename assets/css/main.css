@@ -32,23 +32,23 @@ body{
 
 /* Work Page Styling */
 #work:hover {
-	background-color: #0550FE;
+	background-color: #5D98FE;
 }
 #work_scroll {
-	background-color: #0550FE;
+	background-color: #5D98FE;
 }
 
 #work-back-btn:hover {
 	background-color: black;
-	color: #0550FE;
+	color: #5D98FE;
 }
 
 .work_right {
-	background-color: #0550FE;
+	background-color: #5D98FE;
 }
 
 #work-container {
-	background-color: #0550FE;
+	background-color: #5D98FE;
 }
 /* Contact Page Styling */
 #contact:hover {
@@ -546,6 +546,9 @@ background:#000;
 .thumb-img a:hover img{
  opacity:0.7;
 }
+.thumbnail:hover .folio-caption {
+  opacity: 1;
+}
 .folio-caption{
  position:absolute;
  bottom:-55px;
@@ -665,7 +668,7 @@ border-radius: 0px;
 
 .modal-header {
   padding: 2px 16px;
-  background-color: #0550FE;
+  background-color: #5D98FE;
   color: white;
 }
 
@@ -673,6 +676,6 @@ border-radius: 0px;
 
 .modal-footer {
   padding: 2px 16px;
-  background-color: #0550FE;
+  background-color: #5D98FE;
   color: white;
 }
