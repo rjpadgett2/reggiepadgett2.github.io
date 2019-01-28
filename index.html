@@ -175,6 +175,24 @@
                             </div>
                           </div>
                         </li>
+                        <li class="box" data-id="id-4" data-type="ilustrator">
+                          <div class="folio-img build">
+                            <div class="portfolio-item">
+                              <div class="thumbnail">
+                              <div id = "mapping-div" class="thumb-img" onclick = "projectModal(this)">
+                               <a href="#" data-gal="prettyPhoto[gallery2]" title="This Is Image Title">
+                                 <img class="linear img-portfolio img-responsive" src="assets/images/portfolio/mapping.png" alt="This Is Image"></a>
+
+                                 <div class="folio-caption">
+                                   <p>Mapping Inequality</p>
+                                   </div>
+                                   </div>
+                              </div>
+
+                            </div>
+                          </div>
+                        </li>
+
 
                          </ul>
                          </div>
@@ -299,7 +317,40 @@
             </p>
           </div>
           <div class="modal-footer">
-            <h3>Modal Footer</h3>
+            <h3></h3>
+          </div>
+        </div>
+      </div>
+      <!-- The Modal -->
+      <div id="mapping-modal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <div class="modal-header">
+            <span class="close">&times;</span>
+            <center><h2>Mapping Inequality Database Design and Data Cleaning</h2></center>
+          </div>
+          <div class="modal-body">
+            <div class="w3-content w3-display-container">
+              <img class="mapping-Slides" src="assets/images/portfolio/mapping.png" style="width:100%">
+              <img class="mapping-Slides" src="assets/images/portfolio/mapping/1.png" style="width:100%">
+
+
+
+              <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+              <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+            </div>
+            <a href = "https://dsl.richmond.edu/panorama/redlining/#loc=11/39.2968/-76.6180&opacity=0.8&city=baltimore-md"><i class="fa fa-desktop fa-2x" aria-hidden="true"> Mapping Inequality Project</i></a>
+            <br>
+            <p>Mapping Inequality Database Design and Data Cleaning</p>
+            <p>The Mapping Inequality project is meant to use data to display and analyze how redlining in the U.S.
+              affected neighborhoods and housing communities. The data was given to our team in extremely unorganized
+              JSON format and was cleaned and structured using python and the pandas library. From there the data was used to create a
+               database schemas in MySQL so that information can be queried and displayed in different ways.
+               For more information on the project click the link above.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <h3></h3>
           </div>
         </div>
       </div>
@@ -325,26 +376,12 @@
                             <h2 class="page-title" text-center>Contact</h2>
                             <div class="marker">c</div>
                         </div>
-                        <p class='subtitle'>Feel free to contact me via the below form or on LinkedIn
+                        <p class='subtitle'>Feel free to contact me via email or on LinkedIn
                         </p>
                         <a href = "https://www.linkedin.com/in/reginaldpadgett2/"><i class="fa fa-linkedin-square" style="font-size:48px;color:blue"></i></a>
-                        <!-- form -->
-                        <form class="form_edit" action= "action_page.php" method = "post">
-                            <div class="form-group">
-                                <input type="name" class="form-control" id="exampleInputName" placeholder="Name">
-                            </div>
-                            <div class="form-group">
-                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
-                            </div>
-                            <div class="form-group">
-                            <textarea class="form-control" rows="5" placeholder="Message"></textarea>
-                            </div>
-                            <!-- <div class = "form-group">
-                              <label>*What is 2+2? (Anti-spam)</label>
-                              <input name="human" placeholder="Type Here">
-                            </div> -->
-                            <button type="submit" class="btn btn-rabbit submit">Send Message</button>
-                        </form>
+                        <br>
+                        <a href = "mailto:reggie.padgett2@gmail.com"><i class="fa fa-envelope-o " style="font-size:48px;color:blue"></i></a>
+
                     </div>
                 </div>
             </div>

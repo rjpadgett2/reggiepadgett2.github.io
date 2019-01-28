@@ -159,8 +159,10 @@ function projectModal(elem){
   }else if (elem.id == "pkmn-div"){
     modal = document.getElementById('pkmn-modal');
     modal_slide = document.getElementsByClassName('pkmn-Slides');
+  }else if (elem.id == "mapping-div"){
+    modal = document.getElementById('mapping-modal');
+    modal_slide = document.getElementsByClassName('mapping-Slides');
   }
-
   showDivs(slideIndex, modal_slide);
   // Get the <span> element that closes the modal
   let span = modal.childNodes[3].childNodes[1].childNodes[1];
