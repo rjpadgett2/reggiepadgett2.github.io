@@ -162,6 +162,9 @@ function projectModal(elem){
   }else if (elem.id == "mapping-div"){
     modal = document.getElementById('mapping-modal');
     modal_slide = document.getElementsByClassName('mapping-Slides');
+  }else if (elem.id == "homey-div"){
+    modal = document.getElementById('homey-modal');
+    modal_slide = document.getElementsByClassName('homey-Slides');
   }
   showDivs(slideIndex, modal_slide);
   // Get the <span> element that closes the modal

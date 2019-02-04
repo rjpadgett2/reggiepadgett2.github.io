@@ -55,9 +55,9 @@
                             <div id="contact" class="btn btn-rabbit">Contact</div>
                         </div>
                         <div class="social">
-                            <a href="my-resume.pdf"><i class="fa fa-file-text-o" aria-hidden="true"></i></a>
-                            <a href="https://github.com/rjpadgett2"><i class="fa fa-github" aria-hidden="true"></i></a>
-                            <a href="https://www.linkedin.com/in/reginaldpadgett2/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            <a title = "My Resume" href="my-resume.pdf"><i class="fa fa-file-text-o" aria-hidden="true"></i></a>
+                            <a title = "Github Repo" href="https://github.com/rjpadgett2"><i class="fa fa-github" aria-hidden="true"></i></a>
+                            <a title = "LinkedIn" href="https://www.linkedin.com/in/reginaldpadgett2/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                         </div>
                     </div>
                 </div>
@@ -71,7 +71,15 @@
                 <div class="row" id = "about-page">
                     <div class="col-md-6 left" id="about_left">
                         <img class="img-responsive img-rabbit" src="assets/images/about.jpeg">
+                        <br>
+
+                        <div id = "bio-div">
+                          <center><strong><h3>Professional Background</h3></strong></center>
+                          <center><p class="info">I am a graduate of the University of Maryland College Park with a degree in Information Science. I specialize in web development and building and deploying web apps. I also have limited expereince in ML/Data Science as well as
+                            Data cleaning and Database management.</p></center>
+                        </div>
                     </div>
+
 
                     <div class="col-md-6 right" id="about_right">
                         <a id = "about-back-btn" href="#index" class="btn btn-rabbit back"> <i class="fa fa-angle-left" aria-hidden="true"></i> Back to home </a>
@@ -81,9 +89,22 @@
                         </div>
                         <p class='subtitle'>Hi, My name is Reggie Padgett and I am a Full Stack Software Developer based in the D.C. Metropolitan area.
                         </p>
+                        <div id = "backstory-div">
+                          <strong><center><h3>Why Software Development?</h3></center></strong>
+                          <center>
+                          <strong>
+                          <p>
+                            One of my favorite shows as a kid was Dexter's Laboratory. Dexter was a genius who built a huge lab to do experiments and build his various devices. Every episode was categorized by some problem that Dexter or his family had to face. The recurring theme was Dexter would have to use some device in his lab to solve the problem. No matter what the problem was he could always invent something to solve it. I loved this show as a child because I loved how Dexter could tackle any problem with the inventions in his lab. I love that he used his technical skills to conquer a seemingly infinite array of problems. This is one of the reasons I chose and love Software Development. Software Developers have the skills to change the world and there is a seemingly infinite number of problems that can be solved through software.
+                          </p>
+                          <br>
+                          <p>
+                            There was often a caveat however to Dexter’s problem solving inventions. None of his inventions worked perfectly. There was always some oversight or flaw he had to overcome in the process. This is seen in software development as well. In software development there is a never a perfect solution to any problem. There are risks and tradeoffs to be made when developing anything. Failure is inevitable along this path but good software developers fail gracefully. That is, we fail and learn from them iteratively over and over again becoming better each time. This is something I try to remember when I code and I remember that even though Dexter always fought difficulty while building his contraptions he was always able to learn from his failures and make something that got the job done.
+                          </p>
+                        </center>
+                        </strong>
+                        </div>
 
-                        <p class="info">"I recently graduated from the University of Maryland College Park with a degree in Information Science. I specialize in web development and building web apps. I also have expereince in ML/Data Science as well as limited experience
-                          in Data cleaning and Database management."</p>
+                        <!-- <img class="img-responsive img-rabbit" src="assets/images/dex.png"> -->
                     </div>
                 </div>
             </div>
@@ -129,7 +150,7 @@
                             <div class="thumbnail">
                                <div id = "iadvisor-div" class="thumb-img" onclick = "projectModal(this)">
                                <a href="#" data-gal="prettyPhoto[gallery2]" title="iAdvisor">
-                                  <img class="linear img-portfolio img-responsive" src="assets/images/portfolio/iadvisor-home.png" alt="This Is Image">
+                                  <img class="linear img-portfolio img-responsive" src="assets/images/portfolio/iadvisor-home.png" alt="iAdvisor">
                                </a>
 
                                <div class="folio-caption animated">
@@ -147,7 +168,7 @@
                             <div class="portfolio-item">
                               <div class="thumbnail">
                               <div id = "pbd-div" class="thumb-img" onclick = "projectModal(this)">
-                              <a href="#" data-gal="prettyPhoto[gallery2]" title="This Is Image Title">
+                              <a href="#" data-gal="prettyPhoto[gallery2]" title="PbDBoardGame">
                                 <img class="linear img-portfolio img-responsive" src="assets/images/portfolio/pbd-home.png" alt="PbDBoard Game"></a>
 
                               <div class="folio-caption">
@@ -163,8 +184,8 @@
                             <div class="portfolio-item">
                               <div class="thumbnail">
                               <div id = "pkmn-div" class="thumb-img" onclick = "projectModal(this)">
-                               <a href="#" data-gal="prettyPhoto[gallery2]" title="This Is Image Title">
-                                 <img class="linear img-portfolio img-responsive" src="assets/images/portfolio/pkmn-home.png" alt="This Is Image"></a>
+                               <a href="#" data-gal="prettyPhoto[gallery2]" title="Pokemon DataBase">
+                                 <img class="linear img-portfolio img-responsive" src="assets/images/portfolio/pkmn-home.png" alt="Pokemon Database"></a>
 
                                  <div class="folio-caption">
                                    <p>Pokemon DataBase</p>
@@ -180,11 +201,28 @@
                             <div class="portfolio-item">
                               <div class="thumbnail">
                               <div id = "mapping-div" class="thumb-img" onclick = "projectModal(this)">
-                               <a href="#" data-gal="prettyPhoto[gallery2]" title="This Is Image Title">
-                                 <img class="linear img-portfolio img-responsive" src="assets/images/portfolio/mapping.png" alt="This Is Image"></a>
+                               <a href="#" data-gal="prettyPhoto[gallery2]" title="Mapping Inequality">
+                                 <img class="linear img-portfolio img-responsive" src="assets/images/portfolio/mapping.png" alt="Mapping Inequality"></a>
 
                                  <div class="folio-caption">
                                    <p>Mapping Inequality</p>
+                                   </div>
+                                   </div>
+                              </div>
+
+                            </div>
+                          </div>
+                        </li>
+                        <li class="box" data-id="id-5" data-type="ilustrator">
+                          <div class="folio-img build">
+                            <div class="portfolio-item">
+                              <div class="thumbnail">
+                              <div id = "homey-div" class="thumb-img" onclick = "projectModal(this)">
+                               <a href="#" data-gal="prettyPhoto[gallery2]" title="Homey">
+                                 <img class="linear img-portfolio img-responsive" src="assets/images/portfolio/homey-home.png" alt="Homey"></a>
+
+                                 <div class="folio-caption">
+                                   <p>Homey</p>
                                    </div>
                                    </div>
                               </div>
@@ -347,6 +385,38 @@
               JSON format and was cleaned and structured using python and the pandas library. From there the data was used to create a
                database schemas in MySQL so that information can be queried and displayed in different ways.
                For more information on the project click the link above.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <h3></h3>
+          </div>
+        </div>
+      </div>
+      <!-- The Modal -->
+      <div id="homey-modal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <div class="modal-header">
+            <span class="close">&times;</span>
+            <center><h2>Mapping Inequality Database Design and Data Cleaning</h2></center>
+          </div>
+          <div class="modal-body">
+            <div class="w3-content w3-display-container">
+              <img class="homey-Slides" src="assets/images/portfolio/homey-home.png" style="width:100%">
+              <img class="homey-Slides" src="assets/images/portfolio/homey/2.png" style="width:100%">
+
+
+
+              <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+              <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+            </div>
+            <a href = "https://github.com/rjpadgett2/nsbe44-blackhack"><i class="fa fa-github-alt fa-2x" aria-hidden="true"> Show Me The Code</i></a>
+            <p>Homey Relocation App</p>
+            <p>During the National Society of Black Engineers 44th Annual convention, I had the
+              pleasure of participating in the Annual Hackathon. I competed with four other students
+              from my school. We built a web app that finds compatible neighborhoods based on specific
+              values such as race and household income. We built the app using Node JS on the server side
+              and Angular for the front end. We came in second place out of almost thirty teams.
             </p>
           </div>
           <div class="modal-footer">

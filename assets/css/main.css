@@ -20,6 +20,7 @@ body{
 #about-page {
 	background-color: #FEFE8D;
 	border: 2px;
+
 	border-color: black;
 }
 #about-container {
@@ -95,7 +96,24 @@ body{
 	background-color: black;
 	}
 
-
+#bio-div {
+	background-color: white;
+	border-radius: 25px;
+	border-color: white;
+	border-style: outset;
+}
+#backstory-div {
+	/* background-color: white; */
+	border-radius: 25px;
+	border-width: 5px;
+	border-color: white;
+	border-style: inset;
+	background-color: white;
+	/* color: #FEFE8D; */
+}
+#backstory-div p {
+	/* color: white; */
+}
 @media (min-width: 778px)
 {
 		.main{
@@ -114,9 +132,11 @@ body{
     	.info{
 			font-family: "Crimson";
 			line-height: 28px;
-		    font-size: 16px;
-		    padding-top: 15px;
-		    padding-right: 50px;
+	    font-size: 16px;
+	    padding-top: 15px;
+	    padding-right: 50px;
+
+
 		}
 
 		.home-description{
@@ -589,6 +609,18 @@ width:33.333%;
 
 float:left;
 }
+
+@media screen and (max-width: 767px) and (min-width: 240px) {
+	ul.container_folio li.box {
+	    margin: 0;
+	    padding: 0 15px;
+	    width: 100%;
+	    max-width: 380px;
+	    display: inline-block;
+	    float: none;
+	}
+}
+
 .col-md-12{
  clear:both;
 }
